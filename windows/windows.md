@@ -13,6 +13,7 @@
     * ***`BoosterX`***
     * ***`Process Lasso`***
     * `Mem Reduct` [[github.com]](https://github.com/henrypp/memreduct/releases)
+    * ***`PotPlayer`***
 * `个性化`
     * ***`TranslucentTB`***
     * ***`Steam`***

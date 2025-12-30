@@ -8,3 +8,8 @@
     * ***`CS2`***
 * ***`无畏契约`***
 * ***`三角洲行动`***
+* `战网` [[shop.battlenet.com.cn]](https://shop.battlenet.com.cn/zh-cn)
+    * ***`守望先锋`***
+### Repack
+* `消逝的光芒：困兽` [[online-fix.me]](https://online-fix.me/games/officialservers/17880-dying-light-the-beast-po-seti.html)
+    * `消逝的光芒2：重装上阵版` [[online-fix.me]](https://online-fix.me/games/shooter/17061-dying-light-2-stay-human-po-seti.html)
