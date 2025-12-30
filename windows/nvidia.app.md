@@ -17,3 +17,4 @@
     DLSS-RR - Enable DLL Override|On
     DLSS-RR - Forced Preset Letter|Preset K
 * `DDU` [[www.wagnardsoft.com]](https://www.wagnardsoft.com/display-driver-uninstaller-ddu)
+* ***`显卡修改工具.bat`***
