@@ -13,6 +13,7 @@
     * ***`BoosterX`***
     * ***`Process Lasso`***
     * `Mem Reduct` [[github.com]](https://github.com/henrypp/memreduct/releases)
+    * `K-Lite Codec Pack Beta` [[codecguide.com]](https://codecguide.com/klcp_beta.htm)
     * ***`PotPlayer`***
 * `个性化`
     * ***`TranslucentTB`***

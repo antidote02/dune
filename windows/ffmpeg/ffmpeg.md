@@ -3,3 +3,5 @@
 * `Preset`  
 `C:\Program Files\FFmpegFreeUI SingleFile x64\Preset`
     * ***`dyoo.json`***
+* ***`Python`***
+    * ***`ffprobe.pyw`***
