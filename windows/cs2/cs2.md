@@ -54,3 +54,4 @@
         viewmodel_presetpos 0
 * `完美世界竞技平台` [[pvp.wanmei.com]](https://pvp.wanmei.com/)
 * `5E 对战平台` [[arena.5eplay.com]](https://arena.5eplay.com/download)
+* ***`pov.vpk`***
