@@ -5,12 +5,11 @@
     DLSS 优设 - 模型预设|预设 K
     DLSS 优设 - 帧生成模式|使用 3D 应用程序设置
     DLSS 优设 - 超分辨率模式|质量
-    AI 插帧|开
-    
     OpenGL GDI 兼容性|优先性能
     Vulkan / OpenGL 现行方法|优先本机
     电源管理模式|最高性能优先
     着色器缓存大小|无限制+
+* `NVIDIA 控制面板`
 * `NVIDIA Profile Inspector` [[github.com]](https://github.com/Orbmu2k/nvidiaProfileInspector/releases)
     NVIDIA Profile Inspector|Settings
     -|-

@@ -1,9 +1,13 @@
 ## CS2
 * `CS2` [[store.steampowered.com]](https://store.steampowered.com/app/730/CounterStrike_2/)
+    * 复制`csgo_lv`  
+    `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_lv`
+    * 删除`.vpk`  
+    `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_lv`
     * `启动选项`
         ```
         +fps_max 0 +fps_max_ui 0 -worldwide -nojoy
-        # worldwide / perfectworld
+        # -worldwide / -perfectworld
         # -allow_third_party_software
     * `各项设置菜单`
         |各项设置菜单|-|-|-
