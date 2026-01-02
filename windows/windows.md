@@ -1,6 +1,10 @@
 ## Windows
 * `HotPE` [[www.hotpe.top]](https://www.hotpe.top/download)
 * `Windows 11` [[next.itellyou.cn]](https://next.itellyou.cn/Original/#cbp=Product?ID=42e87ac8-9cd6-eb11-bdf8-e0d4e850c9c6)
+    * `设置`
+        * `系统` / `屏幕` / `显示卡`
+            * `高级图形设置` `开`
+            * `应用程序的自定义设置` `高性能`
     * `控制面板` / `电源选项` / `处理器电源管理`
         * `最小处理器状态` `100%`
         * `异类线程调度策略` `所有处理器`
