@@ -1,0 +1,315 @@
+{
+  "FirstLaunch": {
+    "Id": "FirstLaunch",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:07:34.1050282Z"
+  },
+  "SanityExpire": {
+    "Id": "SanityExpire",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-11-02T00:20:36.5634595Z",
+    "Progress": 1
+  },
+  "RoguelikeRetreat": {
+    "Id": "RoguelikeRetreat",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-21T12:41:45.97769Z",
+    "Progress": 244
+  },
+  "RoguelikeGamePass1": {
+    "Id": "RoguelikeGamePass1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-16T03:50:24.6829585Z",
+    "Progress": 1634
+  },
+  "RoguelikeGamePass2": {
+    "Id": "RoguelikeGamePass2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-17T11:43:03.4491371Z",
+    "Progress": 1634
+  },
+  "RoguelikeGamePass3": {
+    "Id": "RoguelikeGamePass3",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-19T23:47:47.8383617Z",
+    "Progress": 1634
+  },
+  "SanitySaver1": {
+    "Id": "SanitySaver1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-15T10:25:11.7994166Z",
+    "Progress": 301
+  },
+  "SanitySaver2": {
+    "Id": "SanitySaver2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-29T04:46:58.4939219Z",
+    "Progress": 301
+  },
+  "SanitySaver3": {
+    "Id": "SanitySaver3",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-08-03T09:59:46.262594Z",
+    "Progress": 301
+  },
+  "SanitySpender1": {
+    "Id": "SanitySpender1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-12T00:53:38.5617807Z",
+    "Progress": 3166
+  },
+  "SanitySpender2": {
+    "Id": "SanitySpender2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-16T12:08:34.8028679Z",
+    "Progress": 3166
+  },
+  "SanitySpender3": {
+    "Id": "SanitySpender3",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-08-05T16:46:22.1599881Z",
+    "Progress": 3166
+  },
+  "PeekScreen": {
+    "Id": "PeekScreen",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-31T02:02:49.0923909Z"
+  },
+  "RealGacha": {
+    "Id": "RealGacha",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-31T02:02:19.6376926Z"
+  },
+  "Pioneer1": {
+    "Id": "Pioneer1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-16T17:57:28.1501009Z"
+  },
+  "Pioneer2": {
+    "Id": "Pioneer2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:07:34.1152607Z"
+  },
+  "Pioneer3": {
+    "Id": "Pioneer3",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-09-09T12:06:27.7229847Z"
+  },
+  "ScheduleMaster1": {
+    "Id": "ScheduleMaster1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-10-21T19:16:11.6873282Z",
+    "Progress": 12
+  },
+  "CopilotLikeGiven1": {
+    "Id": "CopilotLikeGiven1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-24T00:14:57.525898Z",
+    "Progress": 4
+  },
+  "UseCopilot1": {
+    "Id": "UseCopilot1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-24T00:14:06.4709341Z",
+    "Progress": 3
+  },
+  "QuickCloser": {
+    "Id": "QuickCloser",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-16T17:59:21.2426761Z"
+  },
+  "TacticalRetreat": {
+    "Id": "TacticalRetreat",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-13T19:33:05.1411157Z"
+  },
+  "RecruitNoSixStar": {
+    "Id": "RecruitNoSixStar",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-07T20:34:07.0823402Z",
+    "Progress": 3237
+  },
+  "RecruitNoSixStarStreak": {
+    "Id": "RecruitNoSixStarStreak",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-07T20:34:07.0838956Z",
+    "Progress": 688
+  },
+  "SnapshotChallenge3": {
+    "Id": "SnapshotChallenge3",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:09:04.5222504Z"
+  },
+  "SnapshotChallenge4": {
+    "Id": "SnapshotChallenge4",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:09:04.523313Z"
+  },
+  "SnapshotChallenge5": {
+    "Id": "SnapshotChallenge5",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T22:45:31.4975193Z"
+  },
+  "SnapshotChallenge6": {
+    "Id": "SnapshotChallenge6",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:09:04.5237855Z"
+  },
+  "CdnTorture": {
+    "Id": "CdnTorture",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-10-31T10:27:46.6117344Z",
+    "Progress": 3
+  },
+  "ProblemFeedback": {
+    "Id": "ProblemFeedback",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-10-22T06:43:18.1729182Z"
+  },
+  "AfkWatcher": {
+    "Id": "AfkWatcher",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-22T20:00:36.8825713Z"
+  },
+  "LongTaskTimeout": {
+    "Id": "LongTaskTimeout",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-15T22:04:38.2772046Z"
+  },
+  "MissionStartCount": {
+    "Id": "MissionStartCount",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-11T00:16:26.1676719Z",
+    "Progress": 2,
+    "CustomData": {
+      "LastStartDate": "2025-12-29T00:00:00Z"
+    }
+  },
+  "ProxyOnline3Hours": {
+    "Id": "ProxyOnline3Hours",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-16T00:04:38.276743Z"
+  },
+  "TaskStartCancel": {
+    "Id": "TaskStartCancel",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-13T19:33:05.1462636Z"
+  },
+  "UseDaily1": {
+    "Id": "UseDaily1",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-16T22:44:54.5486512Z",
+    "Progress": 202,
+    "CustomData": {
+      "LastLaunchDate": "2025-12-29T00:00:00Z"
+    }
+  },
+  "UseDaily2": {
+    "Id": "UseDaily2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-07-09T23:07:47.931338Z",
+    "Progress": 202
+  },
+  "VersionClick": {
+    "Id": "VersionClick",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-10-22T06:45:50.1859703Z"
+  },
+  "MidnightLaunch": {
+    "Id": "MidnightLaunch",
+    "IsUnlocked": true,
+    "UnlockedTime": "2025-06-13T19:16:59.8555065Z"
+  },
+  "OverLimitAgent": {
+    "Id": "OverLimitAgent",
+    "Progress": 5
+  },
+  "RoguelikeGoldMax": {
+    "Id": "RoguelikeGoldMax",
+    "Progress": 590
+  },
+  "RoguelikeN04": {
+    "Id": "RoguelikeN04"
+  },
+  "RoguelikeN08": {
+    "Id": "RoguelikeN08"
+  },
+  "RoguelikeN12": {
+    "Id": "RoguelikeN12"
+  },
+  "RoguelikeN15": {
+    "Id": "RoguelikeN15"
+  },
+  "CustomizationMaster": {
+    "Id": "CustomizationMaster"
+  },
+  "MosquitoLeg": {
+    "Id": "MosquitoLeg"
+  },
+  "MirrorChyanCdkError": {
+    "Id": "MirrorChyanCdkError"
+  },
+  "MirrorChyanFirstUse": {
+    "Id": "MirrorChyanFirstUse"
+  },
+  "ScheduleMaster2": {
+    "Id": "ScheduleMaster2",
+    "Progress": 12
+  },
+  "CopilotError": {
+    "Id": "CopilotError"
+  },
+  "Irreplaceable": {
+    "Id": "Irreplaceable"
+  },
+  "MapOutdated": {
+    "Id": "MapOutdated"
+  },
+  "CopilotLikeGiven2": {
+    "Id": "CopilotLikeGiven2",
+    "Progress": 4
+  },
+  "CopilotLikeGiven3": {
+    "Id": "CopilotLikeGiven3",
+    "Progress": 4
+  },
+  "UseCopilot2": {
+    "Id": "UseCopilot2",
+    "Progress": 3
+  },
+  "UseCopilot3": {
+    "Id": "UseCopilot3",
+    "Progress": 3
+  },
+  "Martian": {
+    "Id": "Martian"
+  },
+  "SnapshotChallenge1": {
+    "Id": "SnapshotChallenge1"
+  },
+  "SnapshotChallenge2": {
+    "Id": "SnapshotChallenge2"
+  },
+  "CongratulationError": {
+    "Id": "CongratulationError"
+  },
+  "UnexpectedCrash": {
+    "Id": "UnexpectedCrash"
+  },
+  "UseDaily3": {
+    "Id": "UseDaily3",
+    "Progress": 202
+  },
+  "Lucky": {
+    "Id": "Lucky"
+  },
+  "Rules": {
+    "Id": "Rules"
+  },
+  "AprilFools": {
+    "Id": "AprilFools"
+  },
+  "LunarNewYear": {
+    "Id": "LunarNewYear"
+  }
+}
