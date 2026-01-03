@@ -17,3 +17,4 @@
     超分辨率方法|Nvidia DLSS
     超分辨质量|DLAA / 质量优先
     NVIDIA REFLEX 低延迟|低延迟
+* `ACE`
