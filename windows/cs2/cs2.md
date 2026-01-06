@@ -6,7 +6,7 @@
     `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_lv`
     * `启动选项`
         ```
-        +fps_max 0 +fps_max_ui 0 -worldwide -nojoy
+        +fps_max 0 +fps_max_ui 0 -noreflex
         # -worldwide / -perfectworld
         # -allow_third_party_software
     * `各项设置菜单`
@@ -14,7 +14,7 @@
         -|-|-|-
         视频设置|视频|纵横比|标准 4:3
         |||亮度|77%
-        ||高级视频选项|NVIDIA Reflex 低延迟|已启用
+        ||高级视频选项|V-Sync|已禁用
         |||当前视频值预设|低
         |||多重采样抗锯齿模式|2X MSAA
         |||动态阴影|全部
