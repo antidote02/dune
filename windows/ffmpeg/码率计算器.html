@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>视频码率计算器</title>
+		<script type="text/javascript">
+			function count(jisuan){
+				var num1_1 = parseFloat(document.myform.txtNum1_1.value);
+				var num_mbps = parseFloat(document.myform.txtNum_mbps.value);
+				var num2_1 = parseFloat(document.myform.txtNum2_1.value);
+				var num3_1 = parseFloat(document.myform.txtNum3_1.value);
+				var num4_1 = parseFloat(document.myform.txtNum4_1.value);
+				var num5_1 = parseFloat(document.myform.txtNum5_1.value);
+				
+				var num_mb = parseFloat(document.myform.txtNum_mb.value);
+				var num_gb = parseFloat(document.myform.txtNum_gb.value);
+				var num3_2 = parseFloat(document.myform.txtNum3_2.value);
+				var num4_2 = parseFloat(document.myform.txtNum4_2.value);
+				var num5_2 = parseFloat(document.myform.txtNum5_2.value);
+				var num6_2 = parseFloat(document.myform.txtNum6_2.value);
+				//视频文件大小=(视频码率+音频码率)*时长/8
+				switch(jisuan){
+					case "jisuan1":
+					mbps = num_mbps*1024; //把mbps换成kbps
+					malv = num1_1+mbps+num2_1; //统一单位后的结果				
+					shichang = (num3_1*60*60)+(num4_1*60)+num5_1;//计算视频总时长
+					daxiao = ((malv*shichang)/8)/1024
+					scanf = daxiao.toFixed(2);
+					scanf1_1 = scanf/1024;
+					scanf1_1 = scanf1_1.toFixed(2);
+					document.myform.txtresult.value = scanf;
+				    document.myform.txtresult2.value = scanf1_1;
+		            break;
+					//视频码率=（（视频文件大小*8）/时长）-音频码率
+					case "jisuan2":
+                    mb = num_gb*1024; //GB转换为MB
+					kbps = (mb+num_mb)*8*1024; //把MB划算为kbps
+					shijian = (num4_2*60*60)+(num5_2*60)+num6_2; //计算视频总时长
+					scanf_2 = (kbps/shijian)-num3_2; 
+					scanf_2 = scanf_2.toFixed(2);
+					scanf_3 = scanf_2/1024;
+					scanf_3 = scanf_3.toFixed(2);
+				    document.myform.txtresult4.value = scanf_2;
+				    document.myform.txtresult5.value = scanf_3;
+		            break;
+				}
+			}
+			
+	    </script>
+	</head>
+	<body>
+		<form action = "" method = "post" name = "myform">
+			<table border = "0" align="center">
+				<tr>
+					<td></td>
+					<td colspan = "3"><h3>视频文件大小计算</h3></td>
+				</tr>
+				<tr>
+					<td>视频码率：</td>
+					<td colspan = "2"><input name = "txtNum1_1" type = "text" id = "txtNum1_1" size = "10" value="0"></td>
+				    <td>kbps</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td colspan = "2"><input name = "txtNum_mbps" type = "text" id = "txtNum_mbps" size = "10" value="0"></td>
+				    <td>mbps</td>
+				</tr>
+				<tr>
+					<td>音频码率：</td>
+					<td colspan = "2"><input name = "txtNum2_1" type = "text" id = "txtNum2_1" size = "10"></td>
+					<td>kbps</td>
+				</tr>
+				<tr>
+					<td>视频长度：</td>
+				  <td colspan = "1"><input name = "txtNum3_1" type = "text" id = "txtNum3_1" size = "5" value="0"></td>
+					<td>小时</td>
+					<td colspan = "1"><input name = "txtNum4_1" type = "text" id = "txtNum4_1" size = "5" value="0"></td>
+					<td>分钟</td>
+					<td colspan = "1"><input name = "txtNum5_1" type = "text" id = "txtNum5_1" size = "5" value="0"></td>
+					<td>秒</td>
+				</tr>
+				<tr>
+					<td><input name = "addButton2" type = "button" id ="addButton2" value ="计算" onclick="count('jisuan1')"></td>
+				</tr>
+				<tr>
+					<td>视频大约为：</td>
+					<td colspan = "2"><input name= "txtresult" type = "text" id = "txtresult" size = "10"></td>
+					<td>MB</td>
+				</tr>
+					<tr>
+					<td> </td>
+					<td colspan = "2"><input name= "txtresult2" type = "text" id = "txtresult2" size = "10"></td>
+					<td>GB</td>
+				</tr>
+			</table>		
+			
+			
+	<br><br>	
+			
+			
+			<table border = "0" align="center">
+				<tr>
+					<td></td>
+					<td colspan = "3"><h3>视频推荐码率计算</h3></td>
+				</tr>
+				<tr>
+					<td>视频大小：</td>
+					<td colspan = "2"><input name = "txtNum_mb" type = "text" id = "txtNum_mb" size = "10" value="0"></td>
+				    <td>MB</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td colspan = "2"><input name = "txtNum_gb" type = "text" id = "txtNum_gb" size = "10" value="0"></td>
+				    <td>GB</td>
+				</tr>
+				<tr>
+					<td>音频码率：</td>
+					<td colspan = "2"><input name = "txtNum3_2" type = "text" id = "txtNum3_2" size = "10"></td>
+					<td>kbps</td>
+				</tr>
+				<tr>
+					<td>视频长度：</td>
+				  <td colspan = "1"><input name = "txtNum4_2" type = "text" id = "txtNum4_2" size = "5" value="0"></td>
+					<td>小时</td>
+					<td colspan = "1"><input name = "txtNum5_2" type = "text" id = "txtNum5_2" size = "5" value="0"></td>
+					<td>分钟</td>
+					<td colspan = "1"><input name = "txtNum6_2" type = "text" id = "txtNum6_2" size = "5" value="0"></td>
+					<td>秒</td>
+				</tr>
+				<tr>
+                     <td><input name = "addButton3" type = "button" id ="addButton3" value ="计算" onclick="count('jisuan2')"></td>
+				</tr>
+				<tr>
+					<td>推荐码率约为：</td>
+					<td colspan = "2"><input name= "txtresult4" type = "text" id = "txtresult4" size = "10"></td>
+					<td>kbps</td>
+				</tr>
+					<tr>
+					<td> </td>
+					<td colspan = "2"><input name= "txtresult5" type = "text" id = "txtresult5" size = "10"></td>
+					<td>mbps</td>
+				</tr>
+			</table>
+		</form>
+    </body>
+</html>
