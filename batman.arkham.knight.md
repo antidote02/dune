@@ -1,0 +1,4 @@
+## 蝙蝠侠：阿卡姆骑士
+* `蝙蝠侠：阿卡姆骑士` [[store.steampowered.com]](https://store.steampowered.com/app/208650/Batman_Arkham_Knight/)
+* `天邈汉化补丁` [[keylol.com]](https://keylol.com/forum.php?mod=viewthread&tid=165361&page=1&authorid=137966)  
+`D:\SteamLibrary\steamapps\common\Batman Arkham Knight\3DMGAME-Batman.Arkham.Knight.CHS.Patch.v3.0-3DM.exe`
