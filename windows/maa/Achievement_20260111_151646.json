@@ -1,8 +1,8 @@
 {
-  "UpdateEarlyBird": {
-    "Id": "UpdateEarlyBird",
+  "WarehouseKeeper": {
+    "Id": "WarehouseKeeper",
     "IsUnlocked": true,
-    "UnlockedTime": "2026-01-09T14:45:15.4173734Z"
+    "UnlockedTime": "2026-01-11T15:08:54.4317231Z"
   },
   "FirstLaunch": {
     "Id": "FirstLaunch",
@@ -61,19 +61,19 @@
     "Id": "SanitySpender1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-12T00:53:38.5617807Z",
-    "Progress": 3296
+    "Progress": 3312
   },
   "SanitySpender2": {
     "Id": "SanitySpender2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T12:08:34.8028679Z",
-    "Progress": 3296
+    "Progress": 3312
   },
   "SanitySpender3": {
     "Id": "SanitySpender3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-08-05T16:46:22.1599881Z",
-    "Progress": 3296
+    "Progress": 3312
   },
   "PeekScreen": {
     "Id": "PeekScreen",
@@ -132,13 +132,13 @@
     "Id": "RecruitNoSixStar",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0823402Z",
-    "Progress": 3300
+    "Progress": 3333
   },
   "RecruitNoSixStarStreak": {
     "Id": "RecruitNoSixStarStreak",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0838956Z",
-    "Progress": 751
+    "Progress": 4
   },
   "SnapshotChallenge3": {
     "Id": "SnapshotChallenge3",
@@ -185,9 +185,9 @@
     "Id": "MissionStartCount",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-11T00:16:26.1676719Z",
-    "Progress": 2,
+    "Progress": 1,
     "CustomData": {
-      "LastStartDate": "2026-01-09T00:00:00Z"
+      "LastStartDate": "2026-01-11T00:00:00Z"
     }
   },
   "ProxyOnline3Hours": {
@@ -205,20 +205,25 @@
     "IsUnlocked": true,
     "UnlockedTime": "2026-01-05T17:46:11.8279588Z"
   },
+  "UpdateEarlyBird": {
+    "Id": "UpdateEarlyBird",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-01-09T14:45:15.4173734Z"
+  },
   "UseDaily1": {
     "Id": "UseDaily1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T22:44:54.5486512Z",
-    "Progress": 207,
+    "Progress": 209,
     "CustomData": {
-      "LastLaunchDate": "2026-01-09T00:00:00Z"
+      "LastLaunchDate": "2026-01-11T00:00:00Z"
     }
   },
   "UseDaily2": {
     "Id": "UseDaily2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-09T23:07:47.931338Z",
-    "Progress": 207
+    "Progress": 209
   },
   "SanityPlanner": {
     "Id": "SanityPlanner",
@@ -240,7 +245,7 @@
   },
   "OverLimitAgent": {
     "Id": "OverLimitAgent",
-    "Progress": 30
+    "Progress": 6
   },
   "RecruitGambler": {
     "Id": "RecruitGambler"
@@ -296,10 +301,11 @@
   },
   "TaskChainKing": {
     "Id": "TaskChainKing",
-    "Progress": 3
+    "Progress": 4
   },
   "WarehouseMiser": {
-    "Id": "WarehouseMiser"
+    "Id": "WarehouseMiser",
+    "Progress": 6
   },
   "HrSpecialist": {
     "Id": "HrSpecialist"
@@ -365,16 +371,13 @@
   },
   "UseDaily3": {
     "Id": "UseDaily3",
-    "Progress": 207
+    "Progress": 209
   },
   "Lucky": {
     "Id": "Lucky"
   },
   "Rules": {
     "Id": "Rules"
-  },
-  "WarehouseKeeper": {
-    "Id": "WarehouseKeeper"
   },
   "AprilFools": {
     "Id": "AprilFools"
