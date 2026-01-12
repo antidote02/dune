@@ -33,6 +33,7 @@
     * `重启算法服务`
     * `重新部署`
     * `用户资料同步`
+    * `gpedit.msc` / `用户配置` / `管理模板` / `Windows 组件` / `Windows PowerShell` / `启用脚本执行`
     * `如何清理已删除的用户自造词` [[www.bilibili.com]](https://www.bilibili.com/video/BV1YM4m1o7BX/?vd_source=85eeb932842b5b15ade257caaa4a9ba8)
         * ***`userdb.bat`***  
         `C:\RimeSync\DESKTOP-U3ABQQ8\userdb.bat`

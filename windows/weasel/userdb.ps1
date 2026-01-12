@@ -18,7 +18,7 @@ if (test-path rime_frost.userdb) {
 }
 cd $rimesync
 cp rime_frost.userdb.txt rime_frost.userdb.txt.backup
-bash -c "sed -i '/c=-[0-9]*/d' rime_frost.userdb.txt"
+git-bash -c "sed -i '/c=-[0-9]*/d' rime_frost.userdb.txt"
 $time = get-date -format "yyyymmddhhmmss"
 cp rime_frost.userdb.txt .\sync\rime_frost.userdb.txt.$time
 pause
