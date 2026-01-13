@@ -29,6 +29,10 @@
         ```
         installation_id: "DESKTOP-U3ABQQ8"
         sync_dir: 'C:\RimeSync'
+* 后续更新
+    ```
+    cd "$env:APPDATA\Rime"
+    git pull
 * `小狼毫`
     * `重启算法服务`
     * `重新部署`
