@@ -1,8 +1,9 @@
 {
-  "WarehouseKeeper": {
-    "Id": "WarehouseKeeper",
+  "TaskChainKing": {
+    "Id": "TaskChainKing",
     "IsUnlocked": true,
-    "UnlockedTime": "2026-01-11T15:08:54.4317231Z"
+    "UnlockedTime": "2026-03-11T11:20:12.4771067Z",
+    "Progress": 8
   },
   "FirstLaunch": {
     "Id": "FirstLaunch",
@@ -19,61 +20,61 @@
     "Id": "RoguelikeRetreat",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-21T12:41:45.97769Z",
-    "Progress": 244
+    "Progress": 245
   },
   "RoguelikeGamePass1": {
     "Id": "RoguelikeGamePass1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-16T03:50:24.6829585Z",
-    "Progress": 1634
+    "Progress": 1638
   },
   "RoguelikeGamePass2": {
     "Id": "RoguelikeGamePass2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-17T11:43:03.4491371Z",
-    "Progress": 1634
+    "Progress": 1638
   },
   "RoguelikeGamePass3": {
     "Id": "RoguelikeGamePass3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-19T23:47:47.8383617Z",
-    "Progress": 1634
+    "Progress": 1638
   },
   "SanitySaver1": {
     "Id": "SanitySaver1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-15T10:25:11.7994166Z",
-    "Progress": 305
+    "Progress": 365
   },
   "SanitySaver2": {
     "Id": "SanitySaver2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-29T04:46:58.4939219Z",
-    "Progress": 305
+    "Progress": 365
   },
   "SanitySaver3": {
     "Id": "SanitySaver3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-08-03T09:59:46.262594Z",
-    "Progress": 305
+    "Progress": 365
   },
   "SanitySpender1": {
     "Id": "SanitySpender1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-12T00:53:38.5617807Z",
-    "Progress": 3312
+    "Progress": 4149
   },
   "SanitySpender2": {
     "Id": "SanitySpender2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T12:08:34.8028679Z",
-    "Progress": 3312
+    "Progress": 4149
   },
   "SanitySpender3": {
     "Id": "SanitySpender3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-08-05T16:46:22.1599881Z",
-    "Progress": 3312
+    "Progress": 4149
   },
   "PeekScreen": {
     "Id": "PeekScreen",
@@ -84,6 +85,12 @@
     "Id": "RealGacha",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-31T02:02:19.6376926Z"
+  },
+  "WarehouseMiser": {
+    "Id": "WarehouseMiser",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-02-10T14:23:19.2577588Z",
+    "Progress": 10025
   },
   "Pioneer1": {
     "Id": "Pioneer1",
@@ -106,17 +113,28 @@
     "UnlockedTime": "2025-10-21T19:16:11.6873282Z",
     "Progress": 12
   },
+  "CopilotError": {
+    "Id": "CopilotError",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-01-15T08:42:17.2415176Z"
+  },
   "CopilotLikeGiven1": {
     "Id": "CopilotLikeGiven1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-24T00:14:57.525898Z",
-    "Progress": 4
+    "Progress": 6
   },
   "UseCopilot1": {
     "Id": "UseCopilot1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-24T00:14:06.4709341Z",
-    "Progress": 3
+    "Progress": 12
+  },
+  "UseCopilot2": {
+    "Id": "UseCopilot2",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-03-07T20:34:49.1178616Z",
+    "Progress": 12
   },
   "QuickCloser": {
     "Id": "QuickCloser",
@@ -128,17 +146,22 @@
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-13T19:33:05.1411157Z"
   },
+  "Time325": {
+    "Id": "Time325",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-01-14T19:25:25.9613467Z"
+  },
   "RecruitNoSixStar": {
     "Id": "RecruitNoSixStar",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0823402Z",
-    "Progress": 3333
+    "Progress": 4160
   },
   "RecruitNoSixStarStreak": {
     "Id": "RecruitNoSixStarStreak",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0838956Z",
-    "Progress": 4
+    "Progress": 831
   },
   "SnapshotChallenge3": {
     "Id": "SnapshotChallenge3",
@@ -185,9 +208,9 @@
     "Id": "MissionStartCount",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-11T00:16:26.1676719Z",
-    "Progress": 1,
+    "Progress": 12,
     "CustomData": {
-      "LastStartDate": "2026-01-11T00:00:00Z"
+      "LastStartDate": "2026-03-11T00:00:00Z"
     }
   },
   "ProxyOnline3Hours": {
@@ -214,16 +237,16 @@
     "Id": "UseDaily1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T22:44:54.5486512Z",
-    "Progress": 209,
+    "Progress": 268,
     "CustomData": {
-      "LastLaunchDate": "2026-01-11T00:00:00Z"
+      "LastLaunchDate": "2026-03-11T00:00:00Z"
     }
   },
   "UseDaily2": {
     "Id": "UseDaily2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-09T23:07:47.931338Z",
-    "Progress": 209
+    "Progress": 268
   },
   "SanityPlanner": {
     "Id": "SanityPlanner",
@@ -235,6 +258,16 @@
     "IsUnlocked": true,
     "UnlockedTime": "2025-10-22T06:45:50.1859703Z"
   },
+  "WarehouseKeeper": {
+    "Id": "WarehouseKeeper",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-01-11T15:08:54.4317231Z"
+  },
+  "LunarNewYear": {
+    "Id": "LunarNewYear",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-02-16T18:28:50.9060231Z"
+  },
   "MidnightLaunch": {
     "Id": "MidnightLaunch",
     "IsUnlocked": true,
@@ -245,10 +278,11 @@
   },
   "OverLimitAgent": {
     "Id": "OverLimitAgent",
-    "Progress": 6
+    "Progress": 2
   },
   "RecruitGambler": {
-    "Id": "RecruitGambler"
+    "Id": "RecruitGambler",
+    "Progress": 2
   },
   "ClueSharer": {
     "Id": "ClueSharer"
@@ -299,19 +333,13 @@
   "StartupBoot": {
     "Id": "StartupBoot"
   },
-  "TaskChainKing": {
-    "Id": "TaskChainKing",
-    "Progress": 4
-  },
-  "WarehouseMiser": {
-    "Id": "WarehouseMiser",
-    "Progress": 6
-  },
   "HrSpecialist": {
-    "Id": "HrSpecialist"
+    "Id": "HrSpecialist",
+    "Progress": 1
   },
   "HrSeniorSpecialist": {
-    "Id": "HrSeniorSpecialist"
+    "Id": "HrSeniorSpecialist",
+    "Progress": 1
   },
   "MirrorChyanCdkError": {
     "Id": "MirrorChyanCdkError"
@@ -323,9 +351,6 @@
     "Id": "ScheduleMaster2",
     "Progress": 12
   },
-  "CopilotError": {
-    "Id": "CopilotError"
-  },
   "Irreplaceable": {
     "Id": "Irreplaceable"
   },
@@ -334,28 +359,21 @@
   },
   "CopilotLikeGiven2": {
     "Id": "CopilotLikeGiven2",
-    "Progress": 4
+    "Progress": 6
   },
   "CopilotLikeGiven3": {
     "Id": "CopilotLikeGiven3",
-    "Progress": 4
-  },
-  "UseCopilot2": {
-    "Id": "UseCopilot2",
-    "Progress": 3
+    "Progress": 6
   },
   "UseCopilot3": {
     "Id": "UseCopilot3",
-    "Progress": 3
+    "Progress": 12
   },
   "AnnouncementStubbornClick": {
     "Id": "AnnouncementStubbornClick"
   },
   "Martian": {
     "Id": "Martian"
-  },
-  "Time325": {
-    "Id": "Time325"
   },
   "SnapshotChallenge2": {
     "Id": "SnapshotChallenge2"
@@ -371,7 +389,7 @@
   },
   "UseDaily3": {
     "Id": "UseDaily3",
-    "Progress": 209
+    "Progress": 268
   },
   "Lucky": {
     "Id": "Lucky"
@@ -381,8 +399,5 @@
   },
   "AprilFools": {
     "Id": "AprilFools"
-  },
-  "LunarNewYear": {
-    "Id": "LunarNewYear"
   }
 }

@@ -24,6 +24,10 @@
         ```
         patch:
           "style/horizontal": true
+          "style/font_face": "Cascadia Code"
+          "style/font_point": 13
+          "style/label_font_face": "Cascadia Code"
+          "style/label_font_point": 12
     * `installation.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
         ```

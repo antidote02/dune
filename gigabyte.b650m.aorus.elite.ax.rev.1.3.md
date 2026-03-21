@@ -44,7 +44,7 @@
 * `设置`
     * `IO Ports` / `Integrated Graphics` `停用`
     * `Miscellaneous`
-        * `IOMMU` `Disabled`
+        * `IOMMU` `Eabled`
         * `TSME` `Disabled`
     * `AMD CBS` / `CPU Common Options`
         * `Global C-State Control` `Disabled`
