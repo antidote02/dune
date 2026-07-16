@@ -8,7 +8,7 @@
     "Id": "SanityExpire",
     "IsUnlocked": true,
     "UnlockedTime": "2025-11-02T00:20:36.5634595Z",
-    "Progress": 2
+    "Progress": 1
   },
   "RoguelikeRetreat": {
     "Id": "RoguelikeRetreat",
@@ -38,49 +38,60 @@
     "Id": "SanitySaver1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-15T10:25:11.7994166Z",
-    "Progress": 406
+    "Progress": 529
   },
   "SanitySaver2": {
     "Id": "SanitySaver2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-29T04:46:58.4939219Z",
-    "Progress": 406
+    "Progress": 529
   },
   "SanitySaver3": {
     "Id": "SanitySaver3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-08-03T09:59:46.262594Z",
-    "Progress": 406
+    "Progress": 529
   },
   "SanitySpender1": {
     "Id": "SanitySpender1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-12T00:53:38.5617807Z",
-    "Progress": 4924
+    "Progress": 7055
   },
   "SanitySpender2": {
     "Id": "SanitySpender2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T12:08:34.8028679Z",
-    "Progress": 4924
+    "Progress": 7055
   },
   "SanitySpender3": {
     "Id": "SanitySpender3",
     "IsUnlocked": true,
     "UnlockedTime": "2025-08-05T16:46:22.1599881Z",
-    "Progress": 4924
+    "Progress": 7055
   },
   "ClueSharer": {
     "Id": "ClueSharer",
     "IsUnlocked": true,
     "UnlockedTime": "2026-03-20T02:42:36.6064398Z",
-    "Progress": 69
+    "Progress": 228
   },
   "CluePhilanthropist": {
     "Id": "CluePhilanthropist",
     "IsUnlocked": true,
     "UnlockedTime": "2026-04-07T18:50:18.5948816Z",
-    "Progress": 69
+    "Progress": 228
+  },
+  "ClueCollector": {
+    "Id": "ClueCollector",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-05-20T08:39:27.410071Z",
+    "Progress": 37
+  },
+  "QueueSimplifier": {
+    "Id": "QueueSimplifier",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-05-27T23:39:01.0895231Z"
   },
   "PeekScreen": {
     "Id": "PeekScreen",
@@ -117,13 +128,13 @@
     "Id": "TaskChainKing",
     "IsUnlocked": true,
     "UnlockedTime": "2026-03-11T11:20:12.4771067Z",
-    "Progress": 2
+    "Progress": 5
   },
   "WarehouseMiser": {
     "Id": "WarehouseMiser",
     "IsUnlocked": true,
     "UnlockedTime": "2026-02-10T14:23:19.2577588Z",
-    "Progress": 10025
+    "Progress": 29664
   },
   "ConnectionTester": {
     "Id": "ConnectionTester",
@@ -177,13 +188,13 @@
     "Id": "RecruitNoSixStar",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0823402Z",
-    "Progress": 4621
+    "Progress": 5807
   },
   "RecruitNoSixStarStreak": {
     "Id": "RecruitNoSixStarStreak",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-07T20:34:07.0838956Z",
-    "Progress": 1292
+    "Progress": 1101
   },
   "SnapshotChallenge3": {
     "Id": "SnapshotChallenge3",
@@ -214,12 +225,17 @@
     "Id": "CdnTorture",
     "IsUnlocked": true,
     "UnlockedTime": "2025-10-31T10:27:46.6117344Z",
-    "Progress": 3
+    "Progress": 4
   },
   "ProblemFeedback": {
     "Id": "ProblemFeedback",
     "IsUnlocked": true,
     "UnlockedTime": "2025-10-22T06:43:18.1729182Z"
+  },
+  "BackstageExplorer": {
+    "Id": "BackstageExplorer",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-05-08T18:24:05.4053747Z"
   },
   "AfkWatcher": {
     "Id": "AfkWatcher",
@@ -235,9 +251,9 @@
     "Id": "MissionStartCount",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-11T00:16:26.1676719Z",
-    "Progress": 5,
+    "Progress": 1,
     "CustomData": {
-      "LastStartDate": "2026-04-19T00:00:00Z"
+      "LastStartDate": "2026-07-16T00:00:00Z"
     }
   },
   "ProxyOnline3Hours": {
@@ -254,16 +270,16 @@
     "Id": "UseDaily1",
     "IsUnlocked": true,
     "UnlockedTime": "2025-06-16T22:44:54.5486512Z",
-    "Progress": 40,
+    "Progress": 128,
     "CustomData": {
-      "LastLaunchDate": "2026-04-19T00:00:00Z"
+      "LastLaunchDate": "2026-07-16T00:00:00Z"
     }
   },
   "UseDaily2": {
     "Id": "UseDaily2",
     "IsUnlocked": true,
     "UnlockedTime": "2025-07-09T23:07:47.931338Z",
-    "Progress": 40
+    "Progress": 128
   },
   "UpdateObsession": {
     "Id": "UpdateObsession",
@@ -274,6 +290,16 @@
     "Id": "UpdateEarlyBird",
     "IsUnlocked": true,
     "UnlockedTime": "2026-01-09T14:45:15.4173734Z"
+  },
+  "LatestVersionInspector": {
+    "Id": "LatestVersionInspector",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-05-21T08:35:00.4033085Z"
+  },
+  "TimeMachine": {
+    "Id": "TimeMachine",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-04-20T02:38:44.1676167Z"
   },
   "VersionClick": {
     "Id": "VersionClick",
@@ -305,6 +331,11 @@
     "IsUnlocked": true,
     "UnlockedTime": "2026-01-11T15:08:54.4317231Z"
   },
+  "OneMoreLook": {
+    "Id": "OneMoreLook",
+    "IsUnlocked": true,
+    "UnlockedTime": "2026-07-05T07:41:40.3851186Z"
+  },
   "SlackingOff": {
     "Id": "SlackingOff",
     "IsUnlocked": true,
@@ -312,7 +343,7 @@
   },
   "OverLimitAgent": {
     "Id": "OverLimitAgent",
-    "Progress": 12
+    "Progress": 1
   },
   "RoguelikeGoldMax": {
     "Id": "RoguelikeGoldMax",
@@ -334,29 +365,22 @@
     "Id": "ClueObsession",
     "Progress": 1,
     "CustomData": {
-      "LastOpeningData": "2026-04-16T00:00:00Z"
+      "LastOpeningData": "2026-07-10T00:00:00Z"
     }
   },
   "RecruitGambler": {
     "Id": "RecruitGambler",
-    "Progress": 2
-  },
-  "ClueCollector": {
-    "Id": "ClueCollector",
-    "Progress": 13
+    "Progress": 4
   },
   "CluePhilosopher": {
     "Id": "CluePhilosopher",
-    "Progress": 13
+    "Progress": 37
   },
   "DoubleSync": {
     "Id": "DoubleSync"
   },
   "QueueExpansion": {
     "Id": "QueueExpansion"
-  },
-  "QueueSimplifier": {
-    "Id": "QueueSimplifier"
   },
   "ResumeRecord": {
     "Id": "ResumeRecord"
@@ -397,11 +421,11 @@
   },
   "HrSpecialist": {
     "Id": "HrSpecialist",
-    "Progress": 1
+    "Progress": 4
   },
   "HrSeniorSpecialist": {
     "Id": "HrSeniorSpecialist",
-    "Progress": 1
+    "Progress": 4
   },
   "AchievementObserver": {
     "Id": "AchievementObserver"
@@ -439,9 +463,6 @@
     "Id": "UseCopilot3",
     "Progress": 15
   },
-  "AnnouncementStubbornClick": {
-    "Id": "AnnouncementStubbornClick"
-  },
   "Martian": {
     "Id": "Martian"
   },
@@ -451,39 +472,30 @@
   "SnapshotChallenge1": {
     "Id": "SnapshotChallenge1"
   },
+  "AnnouncementStubbornClick": {
+    "Id": "AnnouncementStubbornClick"
+  },
   "CongratulationError": {
     "Id": "CongratulationError"
   },
   "UnexpectedCrash": {
     "Id": "UnexpectedCrash"
   },
-  "BackstageExplorer": {
-    "Id": "BackstageExplorer"
-  },
   "UseDaily3": {
     "Id": "UseDaily3",
-    "Progress": 40
+    "Progress": 128
   },
   "ChangelogReader": {
     "Id": "ChangelogReader"
   },
-  "LatestVersionInspector": {
-    "Id": "LatestVersionInspector"
-  },
   "LoadLastSave": {
     "Id": "LoadLastSave"
-  },
-  "TimeMachine": {
-    "Id": "TimeMachine"
   },
   "Lucky": {
     "Id": "Lucky"
   },
   "Rules": {
     "Id": "Rules"
-  },
-  "OneMoreLook": {
-    "Id": "OneMoreLook"
   },
   "PallasCheers": {
     "Id": "PallasCheers"
