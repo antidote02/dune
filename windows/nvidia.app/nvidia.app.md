@@ -2,8 +2,8 @@
 * `NVIDIA App` [[www.nvidia.cn]](https://www.nvidia.cn/drivers/lookup/) / [[www.nvidia.cn]](https://www.nvidia.cn/software/nvidia-app/)
     NVIDIA App|-
     -|-
-    DLSS 优设 - 模型预设|预设 K
-    DLSS 优设 - 帧生成模式|使用 3D 应用程序设置
+    DLSS 优设 - 模型预设|自定义 - FG ： 预设 B 、 SR ： 预设 M 、 RR ： 推荐
+    DLSS 优设 - 帧生成模式|动态 - 目标 FPS ： 自定义 ， 倍增器 ： 最多可达 6x
     DLSS 优设 - 超分辨率模式|质量
 * `NVIDIA 控制面板`
     * `通过预览调整图像设置` `性能`

@@ -10,3 +10,7 @@
     BewlyBewly|[[chromewebstore.google.com]](https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp)
     Proxy SwitchyOmega 3|[[chromewebstore.google.com]](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)
     NeatDownloadManager Extension|[[chromewebstore.google.com]](https://chromewebstore.google.com/detail/neatdownloadmanager-exten/cpcifbdmkopohnnofedkjghjiclmhdah)
+* `ZeroOmega 选项`  
+`不代理的地址列表`  
+    ```
+    *afdian.com

@@ -9,11 +9,21 @@
     ```
 * `小狼毫` [[github.com]](https://github.com/rime/weasel/releases)
 * 编辑
-    * `default.yaml`  
-    `C:\Users\a1729\AppData\Roaming\Rime\default.yaml`
+    * `default.custom.yaml`  
+    `C:\Users\a1729\AppData\Roaming\Rime\default.custom.yaml`
         ```
-        menu:
-          page_size: 9
+        patch:
+          menu:
+            page_size: 9
+          ascii_composer:
+            switch_key:
+              Shift_L: commit_code
+              Shift_R: commit_code
+    * `installation.yaml`  
+    `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
+        ```
+        installation_id: "DESKTOP-U3ABQQ8"
+        sync_dir: 'C:\RimeSync'
     * `rime_frost.dict.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\rime_frost.dict.yaml`
         ```
@@ -28,15 +38,11 @@
           "style/font_point": 13
           "style/label_font_face": "Cascadia Code"
           "style/label_font_point": 12
-    * `installation.yaml`  
-    `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
-        ```
-        installation_id: "DESKTOP-U3ABQQ8"
-        sync_dir: 'C:\RimeSync'
 * 后续更新
     ```
     cd "$env:APPDATA\Rime"
-    git pull
+    git fetch origin
+    git reset --hard origin/master
 * `小狼毫`
     * `重启算法服务`
     * `重新部署`
