@@ -14,15 +14,11 @@
         ```
         patch:
           menu:
-            page_size: 9
-          ascii_composer:
-            switch_key:
-              Shift_L: commit_code
-              Shift_R: commit_code
+            page_size: 5
     * `installation.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
         ```
-        installation_id: "DESKTOP-U3ABQQ8"
+        installation_id: "DESKTOP-S4GBLV2"
         sync_dir: 'C:\RimeSync'
     * `rime_frost.dict.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\rime_frost.dict.yaml`

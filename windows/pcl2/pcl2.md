@@ -1,7 +1,9 @@
 ## PCL 社区版
 * `.NET 8.0` [[dotnet.microsoft.com]](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)
-* `JDK` [[github.com]](https://github.com/graalvm/graalvm-ce-builds/releases)  
-`C:\Program Files\javaw\bin\javaw.exe`
+* `JDK` 
+    * [[www.oracle.com]](https://www.oracle.com/java/technologies/downloads/)
+    * [[github.com]](https://github.com/graalvm/oracle-graalvm-ea-builds/releases)  
+    `C:\Program Files\Java\jdk-26.0.1`
 * `PCL 社区版` [[github.com]](https://github.com/PCL-Community/PCL-CE/releases)  
 `C:\Users\a1729\AppData\Roaming\PCL2_CE_Beta_x64.exe`
     * `离线验证` [[github.com]](https://github.com/PCL-Community/PCL-CE/releases/tag/2.13.0-beta.2)
