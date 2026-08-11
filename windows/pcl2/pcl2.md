@@ -58,6 +58,9 @@
         -|-
         allow-flight|true
         difficulty|peaceful / hard
+        enable-command-block|true
+        enforce-secure-profile | false
+        function-permission-level=4
         gamemode|survival / creative / adventure / spectator
         online-mode|false / true
         spawn-protection|0 / 16
@@ -70,7 +73,7 @@
     * `Include Server Prooerties`
     * `Run Arguments`
         ```
-        -Xmx8G -Xms8G
+        -Xmx6G -Xms6G
     * `Generate`
     * 编辑`variables.txt`  
     `C:\Users\a1729\ServerPackCreator\server-packs\Fabulously Optimized\variables.txt`
@@ -91,17 +94,42 @@
         }
 * `PowerShell`
     ```
-    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 ; C:\Users\a1729\ServerPackCreator\server-packs\26.1.2-Fabric_0.19.3\start.ps1
-### Voxy + Chunky
+    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
+    .\start.ps1
+    .\start.bat
+
+    gamerule doDaylightCycle false
+
+    time set 0
+
+    gamerule doDaylightCycle true
+### Chunky + Voxy
 ```
-/chunky center
-/chunky center 0 0 0
+chunky center
+chunky center 0 0 0
 
-/chunky shape circle
-/chunky shape square
+chunky shape circle
+chunky shape square
 
-/chunky radius 129c
+chunky radius 128c
 
-/chunky start
+chunky start
 
-/voxy import world
+chunky pause
+
+voxy import world
+```
+### Distant Horizons
+```
+dh config generation.mode INTERNAL_SERVER
+
+dh config common.threadPreset I_PAID_FOR_THE_WHOLE_CPU
+
+dh pregen start overworld 0 0 128
+dh pregen start overworld 0 0 256
+dh pregen start overworld 0 0 512
+
+dh pregen stop
+
+dh config common.threadPreset MINIMAL_IMPACT

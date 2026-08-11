@@ -1,0 +1,1 @@
+& 'D:\Program Files\Java\graalvm-jdk-24+36.1\bin\java' `@user_jvm_args.txt `@libraries/net/minecraftforge/forge/1.20.1-47.4.0/win_args.txt

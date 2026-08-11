@@ -5,7 +5,7 @@
 * ***`PowerShell`***
     ```
     cd C:\Users\a1729\AppData\Roaming
-    git clone --depth 1 https://github.com/gaboolic/rime-frost Rime
+    git clone https://github.com/gaboolic/rime-frost Rime
     ```
 * `小狼毫` [[github.com]](https://github.com/rime/weasel/releases)
 * 编辑
@@ -14,7 +14,7 @@
         ```
         patch:
           menu:
-            page_size: 5
+            page_size: 9
     * `installation.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
         ```
@@ -29,11 +29,7 @@
     `C:\Users\a1729\AppData\Roaming\Rime\weasel.custom.yaml`
         ```
         patch:
-          "style/horizontal": true
-          "style/font_face": "Cascadia Code"
-          "style/font_point": 13
-          "style/label_font_face": "Cascadia Code"
-          "style/label_font_point": 12
+          style/horizontal: true
 * 后续更新
     ```
     cd "$env:APPDATA\Rime"

@@ -1,0 +1,10 @@
+{
+	// If the mod should be enabled. Turned off by default to prevent unwanted behaviour in modpacks.
+	"enableAutomaticOperator": true,
+	// If the mod should only run on dedicated servers.
+	"onlyRunOnDedicatedServers": true,
+	// If enabled, only player names specified in 'specificOperatorPlayerNames' will be made operators. If disabled, everyone will.
+	"onlyMakeSpecificPlayerNamesOP": false,
+	// The specific names of players that the mod automatically makes operators. Seperated by a comma ( , ).
+	"specificOperatorPlayerNames": "Player1,Player2"
+}

@@ -1,1 +1,2 @@
-powershell -file userdb.ps1
+pwsh-preview rime_frost.userdb.ps1
+pause
