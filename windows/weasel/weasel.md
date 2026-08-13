@@ -13,8 +13,7 @@
     `C:\Users\a1729\AppData\Roaming\Rime\default.custom.yaml`
         ```
         patch:
-          menu:
-            page_size: 9
+          menu/page_size: 10
     * `installation.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
         ```
