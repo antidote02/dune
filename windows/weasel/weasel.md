@@ -13,7 +13,7 @@
     `C:\Users\a1729\AppData\Roaming\Rime\default.custom.yaml`
         ```
         patch:
-          menu/page_size: 10
+          menu/page_size: 5
     * `installation.yaml`  
     `C:\Users\a1729\AppData\Roaming\Rime\installation.yaml`
         ```
@@ -28,7 +28,7 @@
     `C:\Users\a1729\AppData\Roaming\Rime\weasel.custom.yaml`
         ```
         patch:
-          style/horizontal: true
+          style/horizontal: false
 * 后续更新
     ```
     cd "$env:APPDATA\Rime"
