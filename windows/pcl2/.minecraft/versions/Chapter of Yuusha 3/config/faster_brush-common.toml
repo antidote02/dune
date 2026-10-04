@@ -1,0 +1,7 @@
+#The minimum level of Efficiency enchantment on a brush required to
+#instantly complete archaeology (skip the brushing animation).
+#Default: 10 (Efficiency X). Set lower to make it work with lower
+#Efficiency levels.
+#Range: 1 ~ 255
+efficiencyThreshold = 1
+

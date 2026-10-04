@@ -1,0 +1,4 @@
+#zstd compression level for client->server stream
+#Range: 1 ~ 22
+level = 1
+

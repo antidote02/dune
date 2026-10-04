@@ -1,0 +1,1 @@
+{"rate_control":"VBR","bitrate":6000,"max_bitrate":56000,"preset":"p7","tune":"ull","multipass":"disabled","profile":"high","lookahead":true,"adaptive_quantization":true,"bf":3}

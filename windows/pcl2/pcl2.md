@@ -60,9 +60,9 @@
         difficulty|peaceful / hard
         enable-command-block|true
         enforce-secure-profile | false
-        function-permission-level=4
         gamemode|survival / creative / adventure / spectator
         online-mode|false / true
+        op-permission-level=4
         spawn-protection|0 / 16
     * `Modpack Diretory`  
     `C:\Users\a1729\ServerPackCreator\server-packs\Fabulously Optimized`
