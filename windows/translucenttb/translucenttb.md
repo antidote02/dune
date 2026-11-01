@@ -1,0 +1,81 @@
+## TranslucentTB
+* `TranslucentTB` [[github.com]](https://github.com/TranslucentTB/TranslucentTB/releases)
+* `编辑设置`
+    ```
+    // See https://TranslucentTB.github.io/config for more information
+    {
+    "$schema": "https://TranslucentTB.github.io/settings.schema.json",
+    "desktop_appearance": {
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": false,
+        "show_line": false,
+        "blur_radius": 9.0
+    },
+    "visible_window_appearance": {
+        "enabled": true,
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": true,
+        "show_line": false,
+        "blur_radius": 9.0,
+        "rules": {
+        "window_class": {},
+        "window_title": {},
+        "process_name": {}
+        }
+    },
+    "maximized_window_appearance": {
+        "enabled": true,
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": true,
+        "show_line": false,
+        "blur_radius": 9.0,
+        "rules": {
+        "window_class": {},
+        "window_title": {},
+        "process_name": {}
+        }
+    },
+    "start_opened_appearance": {
+        "enabled": true,
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": true,
+        "show_line": false,
+        "blur_radius": 9.0
+    },
+    "search_opened_appearance": {
+        "enabled": true,
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": true,
+        "show_line": false,
+        "blur_radius": 9.0
+    },
+    "task_view_opened_appearance": {
+        "enabled": true,
+        "accent": "clear",
+        "color": "#00000000",
+        "show_peek": false,
+        "show_line": false,
+        "blur_radius": 9.0
+    },
+    "battery_saver_appearance": {
+        "enabled": false,
+        "accent": "opaque",
+        "color": "#00000000",
+        "show_peek": true,
+        "show_line": false,
+        "blur_radius": 9.0
+    },
+    "ignored_windows": {
+        "window_class": [],
+        "window_title": [],
+        "process_name": []
+    },
+    "disable_saving": false,
+    "verbosity": "warn"
+    }
+    ```

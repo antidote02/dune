@@ -1,0 +1,20 @@
+echo "& 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /sync"
+& 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /sync
+pause
+echo @'
+git-bash -c "sed -E -i '/c=-/d;s/^#@\/tick\t[0-9]+/#@\/tick\t1/;s/([cdt])=[0-9.]+/\1=1/g' rime_frost.userdb.txt"
+'@
+git-bash -c "sed -E -i '/c=-/d;s/^#@\/tick\t[0-9]+/#@\/tick\t1/;s/([cdt])=[0-9.]+/\1=1/g' rime_frost.userdb.txt"
+pause
+echo 'winmergeu rime_frost.userdb.winmerge'
+winmergeu rime_frost.userdb.winmerge
+pause
+echo "& 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /deploy"
+& 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /deploy
+pause
+echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt'
+cp rime_frost.userdb.txt sync\rime_frost.userdb.txt
+echo '$time = get-date -format yyyyMMddHHmmss'
+$time = get-date -format yyyyMMddHHmmss
+echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$time'
+cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$time

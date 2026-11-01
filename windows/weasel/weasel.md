@@ -34,7 +34,8 @@
      `weasel.yaml`重命名`weasel.yaml.bak`
     * `万象语法模型` [[github.com]](https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS)  
     `C:\Users\a1729\AppData\Roaming\Rime\wanxiang-lts-zh-hans.gram`
-    * 新建`rime_frost.custom.yaml`
+    * 新建`rime_frost.custom.yaml`  
+    `C:\Users\a1729\AppData\Roaming\Rime\rime_frost.custom.yaml`
         ```
         patch:
           grammar:

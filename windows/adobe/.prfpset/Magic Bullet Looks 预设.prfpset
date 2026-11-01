@@ -1,0 +1,2708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Tree ObjectRef="1"/>
+	<Tree ObjectID="1" ClassID="177f2841-dd5b-43bd-9d9a-79e231bd47dd" Version="1">
+		<Node Version="1">
+		</Node>
+		<RootBin ObjectRef="2"/>
+	</Tree>
+	<BinTreeItem ObjectID="2" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Name>Root</Name>
+			<Node Version="1">
+			</Node>
+			<Locked>false</Locked>
+		</TreeItemBase>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="3"/>
+		</Items>
+		<Expanded>false</Expanded>
+		<Sorted>false</Sorted>
+	</BinTreeItem>
+	<BinTreeItem ObjectID="3" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Name>预设</Name>
+			<Node Version="1">
+				<Properties Version="1">
+					<HandlerEffects.EffectItemTree.PresetsBin>1</HandlerEffects.EffectItemTree.PresetsBin>
+				</Properties>
+			</Node>
+			<Data ObjectRef="4"/>
+			<Locked>false</Locked>
+		</TreeItemBase>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="5"/>
+		</Items>
+		<Expanded>true</Expanded>
+		<Sorted>true</Sorted>
+	</BinTreeItem>
+	<EffectBinItem ObjectID="4" ClassID="5f513d71-0018-4405-a10b-bf5597f99960" Version="1">
+		<Flavor>1</Flavor>
+	</EffectBinItem>
+	<TreeItem ObjectID="5" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Name>Magic Bullet Looks 预设</Name>
+			<Node Version="1">
+				<Properties Version="1">
+					<MZ.EffectPresets.PresetUID>498f22dd-d8ef-4d33-8325-be4e8deef022</MZ.EffectPresets.PresetUID>
+				</Properties>
+			</Node>
+			<Data ObjectRef="6"/>
+			<Locked>false</Locked>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="6" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<EffectItem Version="1">
+			<EffectFlavor>5</EffectFlavor>
+			<EffectIsShorcut>false</EffectIsShorcut>
+		</EffectItem>
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="7"/>
+			<FilterPreset Index="1" ObjectRef="13"/>
+			<FilterPreset Index="2" ObjectRef="17"/>
+			<FilterPreset Index="3" ObjectRef="149"/>
+		</FilterPresets>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="7" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Component ObjectRef="8"/>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Node Version="1">
+		</Node>
+		<Description></Description>
+		<Type>0</Type>
+		<FilterMatchName>AE.ADBE Unsharp Mask</FilterMatchName>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<AnchorOutPoint>964014004800000</AnchorOutPoint>
+		<Speed>1.</Speed>
+		<TransitionDuration>0</TransitionDuration>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="8" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="7">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<DisplayName>钝化蒙版</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="9"/>
+				<Param Index="1" ObjectRef="10"/>
+				<Param Index="2" ObjectRef="11"/>
+				<Param Index="3" ObjectRef="12"/>
+			</Params>
+			<InstanceName></InstanceName>
+		</Component>
+		<MatchName>AE.ADBE Unsharp Mask</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="9" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>4</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="10" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="10">
+		<Name>数量</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>0.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,25.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>25.</CurrentValue>
+		<LowerBound>-500.</LowerBound>
+		<UpperBound>500.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="11" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="10">
+		<Name>半径</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,20.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>20.</CurrentValue>
+		<LowerBound>0.100006103516</LowerBound>
+		<UpperBound>500.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="12" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="10">
+		<Name>阈值</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>3</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>1.</UpperBound>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="13" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Component ObjectRef="14"/>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Node Version="1">
+		</Node>
+		<Description></Description>
+		<Type>0</Type>
+		<FilterMatchName>AE.ADBE Brightness &amp; Contrast 2</FilterMatchName>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<AnchorOutPoint>964014004800000</AnchorOutPoint>
+		<Speed>1.</Speed>
+		<TransitionDuration>0</TransitionDuration>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="14" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="7">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<DisplayName>Brightness &amp; Contrast</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="15"/>
+				<Param Index="1" ObjectRef="16"/>
+			</Params>
+			<InstanceName></InstanceName>
+		</Component>
+		<MatchName>AE.ADBE Brightness &amp; Contrast 2</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="15" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="10">
+		<Name>亮度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="16" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="10">
+		<Name>对比度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>2</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,15.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>15.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="17" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Component ObjectRef="18"/>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Node Version="1">
+		</Node>
+		<Description></Description>
+		<Type>0</Type>
+		<FilterMatchName>AE.ADBE Lumetri</FilterMatchName>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<AnchorOutPoint>964014004800000</AnchorOutPoint>
+		<Speed>1.</Speed>
+		<TransitionDuration>0</TransitionDuration>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="18" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="7">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<DisplayName>Lumetri 颜色</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="19"/>
+				<Param Index="1" ObjectRef="20"/>
+				<Param Index="2" ObjectRef="21"/>
+				<Param Index="3" ObjectRef="22"/>
+				<Param Index="4" ObjectRef="23"/>
+				<Param Index="5" ObjectRef="24"/>
+				<Param Index="6" ObjectRef="25"/>
+				<Param Index="7" ObjectRef="26"/>
+				<Param Index="8" ObjectRef="27"/>
+				<Param Index="9" ObjectRef="28"/>
+				<Param Index="10" ObjectRef="29"/>
+				<Param Index="11" ObjectRef="30"/>
+				<Param Index="12" ObjectRef="31"/>
+				<Param Index="13" ObjectRef="32"/>
+				<Param Index="14" ObjectRef="33"/>
+				<Param Index="15" ObjectRef="34"/>
+				<Param Index="16" ObjectRef="35"/>
+				<Param Index="17" ObjectRef="36"/>
+				<Param Index="18" ObjectRef="37"/>
+				<Param Index="19" ObjectRef="38"/>
+				<Param Index="20" ObjectRef="39"/>
+				<Param Index="21" ObjectRef="40"/>
+				<Param Index="22" ObjectRef="41"/>
+				<Param Index="23" ObjectRef="42"/>
+				<Param Index="24" ObjectRef="43"/>
+				<Param Index="25" ObjectRef="44"/>
+				<Param Index="26" ObjectRef="45"/>
+				<Param Index="27" ObjectRef="46"/>
+				<Param Index="28" ObjectRef="47"/>
+				<Param Index="29" ObjectRef="48"/>
+				<Param Index="30" ObjectRef="49"/>
+				<Param Index="31" ObjectRef="50"/>
+				<Param Index="32" ObjectRef="51"/>
+				<Param Index="33" ObjectRef="52"/>
+				<Param Index="34" ObjectRef="53"/>
+				<Param Index="35" ObjectRef="54"/>
+				<Param Index="36" ObjectRef="55"/>
+				<Param Index="37" ObjectRef="56"/>
+				<Param Index="38" ObjectRef="57"/>
+				<Param Index="39" ObjectRef="58"/>
+				<Param Index="40" ObjectRef="59"/>
+				<Param Index="41" ObjectRef="60"/>
+				<Param Index="42" ObjectRef="61"/>
+				<Param Index="43" ObjectRef="62"/>
+				<Param Index="44" ObjectRef="63"/>
+				<Param Index="45" ObjectRef="64"/>
+				<Param Index="46" ObjectRef="65"/>
+				<Param Index="47" ObjectRef="66"/>
+				<Param Index="48" ObjectRef="67"/>
+				<Param Index="49" ObjectRef="68"/>
+				<Param Index="50" ObjectRef="69"/>
+				<Param Index="51" ObjectRef="70"/>
+				<Param Index="52" ObjectRef="71"/>
+				<Param Index="53" ObjectRef="72"/>
+				<Param Index="54" ObjectRef="73"/>
+				<Param Index="55" ObjectRef="74"/>
+				<Param Index="56" ObjectRef="75"/>
+				<Param Index="57" ObjectRef="76"/>
+				<Param Index="58" ObjectRef="77"/>
+				<Param Index="59" ObjectRef="78"/>
+				<Param Index="60" ObjectRef="79"/>
+				<Param Index="61" ObjectRef="80"/>
+				<Param Index="62" ObjectRef="81"/>
+				<Param Index="63" ObjectRef="82"/>
+				<Param Index="64" ObjectRef="83"/>
+				<Param Index="65" ObjectRef="84"/>
+				<Param Index="66" ObjectRef="85"/>
+				<Param Index="67" ObjectRef="86"/>
+				<Param Index="68" ObjectRef="87"/>
+				<Param Index="69" ObjectRef="88"/>
+				<Param Index="70" ObjectRef="89"/>
+				<Param Index="71" ObjectRef="90"/>
+				<Param Index="72" ObjectRef="91"/>
+				<Param Index="73" ObjectRef="92"/>
+				<Param Index="74" ObjectRef="93"/>
+				<Param Index="75" ObjectRef="94"/>
+				<Param Index="76" ObjectRef="95"/>
+				<Param Index="77" ObjectRef="96"/>
+				<Param Index="78" ObjectRef="97"/>
+				<Param Index="79" ObjectRef="98"/>
+				<Param Index="80" ObjectRef="99"/>
+				<Param Index="81" ObjectRef="100"/>
+				<Param Index="82" ObjectRef="101"/>
+				<Param Index="83" ObjectRef="102"/>
+				<Param Index="84" ObjectRef="103"/>
+				<Param Index="85" ObjectRef="104"/>
+				<Param Index="86" ObjectRef="105"/>
+				<Param Index="87" ObjectRef="106"/>
+				<Param Index="88" ObjectRef="107"/>
+				<Param Index="89" ObjectRef="108"/>
+				<Param Index="90" ObjectRef="109"/>
+				<Param Index="91" ObjectRef="110"/>
+				<Param Index="92" ObjectRef="111"/>
+				<Param Index="93" ObjectRef="112"/>
+				<Param Index="94" ObjectRef="113"/>
+				<Param Index="95" ObjectRef="114"/>
+				<Param Index="96" ObjectRef="115"/>
+				<Param Index="97" ObjectRef="116"/>
+				<Param Index="98" ObjectRef="117"/>
+				<Param Index="99" ObjectRef="118"/>
+				<Param Index="100" ObjectRef="119"/>
+				<Param Index="101" ObjectRef="120"/>
+				<Param Index="102" ObjectRef="121"/>
+				<Param Index="103" ObjectRef="122"/>
+				<Param Index="104" ObjectRef="123"/>
+				<Param Index="105" ObjectRef="124"/>
+				<Param Index="106" ObjectRef="125"/>
+				<Param Index="107" ObjectRef="126"/>
+				<Param Index="108" ObjectRef="127"/>
+				<Param Index="109" ObjectRef="128"/>
+				<Param Index="110" ObjectRef="129"/>
+				<Param Index="111" ObjectRef="130"/>
+				<Param Index="112" ObjectRef="131"/>
+				<Param Index="113" ObjectRef="132"/>
+				<Param Index="114" ObjectRef="133"/>
+				<Param Index="115" ObjectRef="134"/>
+				<Param Index="116" ObjectRef="135"/>
+				<Param Index="117" ObjectRef="136"/>
+				<Param Index="118" ObjectRef="137"/>
+				<Param Index="119" ObjectRef="138"/>
+				<Param Index="120" ObjectRef="139"/>
+				<Param Index="121" ObjectRef="140"/>
+				<Param Index="122" ObjectRef="141"/>
+				<Param Index="123" ObjectRef="142"/>
+				<Param Index="124" ObjectRef="143"/>
+				<Param Index="125" ObjectRef="144"/>
+				<Param Index="126" ObjectRef="145"/>
+				<Param Index="127" ObjectRef="146"/>
+				<Param Index="128" ObjectRef="147"/>
+				<Param Index="129" ObjectRef="148"/>
+			</Params>
+			<InstanceName></InstanceName>
+		</Component>
+		<MatchName>AE.ADBE Lumetri</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+		<PremiereFilterPrivateData Encoding="base64" Checksum="2154031593">dG11bAMAAAD/////////////////////AAAAAP//////////AAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIH6T5PZ/AAAAAAAAeOz//3js//947P//AQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</PremiereFilterPrivateData>
+	</VideoFilterComponent>
+	<ArbVideoComponentParam ObjectID="19" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>Blob</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="20" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>62</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="21" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>基本校正</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Group.Expanded>true</ECP.Group.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="22" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>3</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="23" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>4</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="24" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>95</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="25" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name>输入 LUT</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>7</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>5</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>0,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>11</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="26" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name>输入 LUT</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>127</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>11</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="27" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>HDR 白色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>63</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>100.</LowerBound>
+		<UpperBound>1000.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="28" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>120</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="29" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>119</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="30" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>强度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>123</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,50.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="31" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>颜色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>6</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="32" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>白平衡</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>94</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374897589125431296,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="33" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>色温</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>7</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-300.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="34" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>色彩</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>8</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-300.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="35" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>饱和度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>200.</UpperUIBound>
+		<ParameterID>20</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,115.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>115.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="36" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>9</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="37" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>灯光</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>10</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="38" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>曝光</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-5.</LowerUIBound>
+		<UpperUIBound>5.</UpperUIBound>
+		<ParameterID>11</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-7.</LowerBound>
+		<UpperBound>7.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="39" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>对比度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>12</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>15.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="40" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>高光</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>13</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="41" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>阴影</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>14</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="42" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>白色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>15</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="43" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>黑色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>16</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="44" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>HDR 高光</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>64</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="45" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>17</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="46" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>18</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="47" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>19</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="48" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>21</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="49" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>创意</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>22</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="50" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>23</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="51" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>24</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="52" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>96</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="53" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name>外观</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>7</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>25</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>0,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>68</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="54" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name>外观</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>128</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>68</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="55" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3211250260">NJHEzR4hKvCa8KThGXaBcw==</StartKeyframeValue>
+		<ParameterID>129</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="56" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name>色彩空间</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>7</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>130</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,28,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>34</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="57" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>强度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>26</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>200.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="58" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>调整</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>27</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="59" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>淡化胶片</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>28</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="60" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>锐化</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>29</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="61" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>自然饱和度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>30</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="62" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>饱和度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>200.</UpperUIBound>
+		<ParameterID>31</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="63" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3099113656">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</StartKeyframeValue>
+		<ParameterID>32</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="64" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>色彩平衡</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>33</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="65" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>34</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="66" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>35</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="67" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>曲线</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>36</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="68" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>37</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="69" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>RGB 曲线</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>38</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="70" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>118</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="71" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>HDR 范围</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>65</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>100.</LowerBound>
+		<UpperBound>10000.</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="72" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="1088034218">AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>39</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="73" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>40</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="74" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>色相饱和度曲线</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>41</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="75" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>104</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="76" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>色相（与饱和度）选择器</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>113</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623936,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="77" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>色相与饱和度</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3402240421">AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>42</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="78" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>105</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="79" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>色相（与色相）选择器</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>114</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623936,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="80" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>色相与色相</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3402240421">AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>106</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="81" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>107</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="82" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>色相（与亮度）选择器</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>115</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623936,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="83" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>色相与亮度</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3402240421">AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>108</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="84" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>109</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="85" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>亮度（与饱和度）选择器</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>116</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623936,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="86" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>亮度与饱和度</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3402240421">AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>110</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="87" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>111</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="88" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>饱和度（与饱和度）选择器</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>117</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623936,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="89" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>饱和度与饱和度</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3402240421">AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>112</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="90" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>43</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="91" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>44</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="92" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>色轮和匹配</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>45</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="93" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>46</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="94" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>101</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="95" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>102</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="96" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>103</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="97" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>HDR 白色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>66</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>100.</LowerBound>
+		<UpperBound>1000.</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="98" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3924380446">AAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAA</StartKeyframeValue>
+		<ParameterID>47</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="99" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>48</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="100" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>HSL 辅助</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>67</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="101" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>68</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="102" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>Key</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>69</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="103" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>设置颜色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>70</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623680,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="104" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>添加颜色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>71</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623680,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="105" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="10">
+		<Name>移除颜色</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>5</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>72</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,18374686479671623680,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>18446744073709551615</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="106" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="306753320">AAAAAD8AAAAAAAAAAAEAAAA/AAAAAAAAAAABAAAAPwAAAAAAAAAAAQ==</StartKeyframeValue>
+		<ParameterID>73</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="107" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>74</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="108" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>7</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>75</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>2</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="109" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>76</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="110" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>77</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="111" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>78</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="112" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>79</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="113" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>优化</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>80</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="114" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>降噪</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>81</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="115" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>模糊</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>30.</UpperUIBound>
+		<ParameterID>82</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>1000.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="116" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>模糊</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>83</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="117" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>Correction</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>84</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="118" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="2930646580">AAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPwAAAAAAAAAA</StartKeyframeValue>
+		<ParameterID>85</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="119" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="2374864269">AAAAAA==</StartKeyframeValue>
+		<ParameterID>93</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="120" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>Temperature</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>86</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-300.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="121" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>色彩</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>87</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-300.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="122" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>对比度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-100.</LowerUIBound>
+		<UpperUIBound>100.</UpperUIBound>
+		<ParameterID>88</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-150.</LowerBound>
+		<UpperBound>150.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="123" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>锐化</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>89</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="124" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>Saturation</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<UpperUIBound>200.</UpperUIBound>
+		<ParameterID>90</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>300.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="125" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>Saturation</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>91</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="126" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>92</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="127" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>晕影</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>49</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="128" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>50</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="129" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>数量</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>-3.</LowerUIBound>
+		<UpperUIBound>3.</UpperUIBound>
+		<ParameterID>51</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-5.</LowerBound>
+		<UpperBound>5.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="130" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>中点</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>52</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,50.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="131" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>圆度</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>53</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-100.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="132" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>羽化</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>54</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,50.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="133" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>55</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="134" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>SpeedGrade 自定义</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>11</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>56</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="135" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>自定义图层</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>57</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="136" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>unused</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>58</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="137" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name>unused</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>59</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="138" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>60</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="139" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>12</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>61</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="140" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>4</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>97</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="141" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>Embedded LUTs</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>98</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="142" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>Media Embedded LUT type</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="2374864269">AAAAAA==</StartKeyframeValue>
+		<ParameterID>99</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="143" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>Media Embedded Lut blob</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>100</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="144" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>SemanticAutoTone Progress</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<Keyframes></Keyframes>
+		<LowerUIBound>0.</LowerUIBound>
+		<ParameterID>121</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,-1.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>-1.</LowerBound>
+		<UpperBound>1.</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="145" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>Auto Tone Analytics Data</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="885711306">ewAiAG0AQQB1AHQAbwBUAG8AbgBlAFAAcgBlAHMAcwBlAGQAIgA6AGYAYQBsAHMAZQAsACIAbQBCAGwAYQBjAGsAcwAiADoAMAAsACIAbQBDAG8AbgB0AHIAYQBzAHQAIgA6ADAALAAiAG0ARQB4AHAAbwBzAHUAcgBlACIAOgAwACwAIgBtAEgAaQBnAGgAbABpAGcAaAB0AHMAIgA6ADAALAAiAG0ATABhAHMAdABQAHIAZQBzAHMAZQBkAEEAdQB0AG8AVABvAG4AZQBCAHUAdAB0AG8AbgAiADoAMAAsACIAbQBSAGUAcwBlAHQAUAByAGUAcwBzAGUAZAAiADoAZgBhAGwAcwBlACwAIgBtAFMAYQB0AHUAcgBhAHQAaQBvAG4AIgA6ADAALAAiAG0AUwBoAGEAZABvAHcAcwAiADoAMAAsACIAbQBUAGUAbQBwAGUAcgBhAHQAdQByAGUAIgA6ADAALAAiAG0AVABpAG4AdAAiADoAMAAsACIAbQBXAGgAaQB0AGUAcwAiADoAMAB9AA==</StartKeyframeValue>
+		<ParameterID>122</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="146" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Name> </Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>124</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="147" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>LUTAsset</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>125</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="148" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>LookAsset</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>10</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="4294940310">/v4=</StartKeyframeValue>
+		<ParameterID>126</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<FilterPreset ObjectID="149" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Component ObjectRef="150"/>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Node Version="1">
+		</Node>
+		<Description></Description>
+		<Type>0</Type>
+		<FilterMatchName>AE.MB LookSuite3</FilterMatchName>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<AnchorOutPoint>964014004800000</AnchorOutPoint>
+		<Speed>1.</Speed>
+		<TransitionDuration>0</TransitionDuration>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="150" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="7">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<DisplayName>Magic Bullet Looks</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="151"/>
+				<Param Index="1" ObjectRef="152"/>
+				<Param Index="2" ObjectRef="153"/>
+				<Param Index="3" ObjectRef="154"/>
+			</Params>
+			<InstanceName></InstanceName>
+		</Component>
+		<MatchName>AE.MB LookSuite3</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="151" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>15</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="152" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="3">
+		<Name>澶栬</Name>
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Custom.Expanded>true</ECP.Custom.Expanded>
+			</Properties>
+		</Node>
+		<ParameterControlType>9</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="3946796515">TUJMMgAAABNmbGFnAAAABAAAAABpbWFnAABjzAAAAIUAAAAwAAACFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABkAAAA9AQEBWgEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBWwEBAU4BAQEbAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAZAAAATAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVsBAQE/AQEBGwAAAAEAAAAAAAAAAAAAAAAAAAABAAAAGQAAAEwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwCAgJcAgICXAICAlwBAQFcAQEBXAEBAVwBAQFbAQEBPwEBAQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAACtAwMD5AQEBPUFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfUFBQXvBAQEswQEBCkBAQEAAAAAAAAAAAAAAAAkAAAArQMDA+4EBAT2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX1BQUF5QQEBLMEBAQpAQEBAAAAAAAAAAADAAAAJAAAAK0DAwPuBAQE9gUFBfYFBQX2BQUF9gUFBfYFBQX2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BgYG9gYGBvYGBgb2BQUF9gUFBfYFBQX2BQUF9QUFBeUEBASFAwMDDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAB7AwMD9wQEBP0EBAT+BAQE/gUFBf8FBQX/BAQE/wQEBf8CAgL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wICAv8DAwT/BAQE/wUFBf4FBQX+BAQE/gQEBPgEBASDAwMDBQAAAAAAAAAFAAAAewMDA/cEBAT9BAQE/gUFBf4FBQX/BQUF/wQEBP8DAwP/AQEB/wEBAf8BAQH/AQEB/wEBAf8BAQH/AQEB/wICAv8CAgL/AQEB/wICAv8CAgL/AgIC/wICAv8BAQH/AgIC/wICAv8BAQH/AQEB/wEBAf8BAQH/AQEB/wEBAf8CAgL/BAQE/wQEBP8FBQX+BQUF/gQEBP0EBAT4BAQEgwMDAwUAAAAAAAAAFgAAAHsDAwP3BAQE/QQEBP4FBQX+BQUF/wUFBf8EBAT/GRkZ/z09Pf8/Pz//QEBA/0BAQP9AQED/QUFB/0FBQf9BQUH/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9BQUH/QUFB/0FBQf9AQED/QEBA/0BAQP8/Pz//Nzc3/wsLC/8FBQX+BQUF/gUFBf4EBAT9BAQE5wQEBEQBAQEFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAmwICAvwEBAT+BAQE/wUFBf8FBQX/BQUF/wQEBP8EBAX/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AwMD/wQEBP8FBQX/BQUF/wUFBf4FBQX8BAQEngICAggAAAABAAAACAAAAJsCAgL8BAQE/gQEBP8FBQX/BQUF/wUFBf8EBAT/AwMD/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AQEB/wAAAP8BAQH/AQEB/wEBAf8BAQH/AAAA/wEBAf8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wQEBP8EBAT/BQUF/wUFBf8FBQX+BAQE/AQEBJ4CAgIIAAAAAQAAACEAAACbAgIC/AQEBP4EBAT/BQUF/wUFBf8FBQX/BAQE/yQkJP9eXl7/YGBg/2BgYP9hYWH/YmJi/2NjY/9jY2P/Y2Nj/2RkZP9kZGT/ZGRk/2VlZf9lZWX/ZGRk/2RkZP9kZGT/Y2Nj/2NjY/9jY2P/YmJi/2FhYf9gYGD/YGBg/1RUVP8PDw//BQUF/wUFBf8FBQX/BQUF/gQEBPQEBARZAQEBCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP8BAQE/gUFBf8FBQX/BQUF/wUFBf8EBAT/BAQF/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wMDA/8SEhP/IiIj/yQkJf8XFxj/CwsL/wEBAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/AQEBKEDAwMJAAAAAQAAAAkAAACiAwMD/AQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wMDA/8AAAD/AAAA/wAAAP8AAAD/AgIC/wICAv8CAgL/AgIC/wICAv8CAgL/AgIC/wMDA/8DAwP/AgIC/wICAv8CAgL/AgIC/wMDA/8CAgL/AgIC/wEBAf8AAAD/AAAA/wAAAP8EBAT/BAQE/wUFBf8FBQX/BQUF/gUFBfwEBAShAwMDCQAAAAEAAAAlAAAAogMDA/wEBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8mJib/Y2Nj/2VlZf9lZWX/ZmZm/2dnZ/9nZ2f/aGho/2hoaP9oaGj/aWlp/2lpaf9paWn/aWlp/2lpaf9paWn/aGho/2hoaP9oaGj/Z2dn/2dnZ/9mZmb/ZmZm/2VlZf9YWFj/EBAQ/wUFBf8FBQX/BQUF/wUFBf4FBQX1BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP4FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AQEC/xYWF/8/P0H/fn6A/4+Pkv+QkJP/hoaJ/2lpa/8kJCX/AgID/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8DAwP/AAAA/wAAAP8BAQH/AwMD/wUFBf8GBgb/BgYG/wYGBv8FBQX/BQUE/wYGBv8GBgb/BgYG/wYGBf8FBQX/BQUF/wUFBf8GBgb/BgYG/wUFBf8DAwP/AQEB/wAAAP8AAAD/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/Jycn/2ZmZv9oaGj/aGho/2lpaf9qamr/ampq/2tra/9ra2v/a2tr/2xsbP9sbGz/bGxs/2xsbP9sbGz/a2tr/2tra/9ra2v/a2tr/2pqav9qamr/aWlp/2hoaP9oaGj/W1tb/xAQEP8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/xUVFf9wcHP/k5OW/5OTlv+NjZD/jIyP/5GRlP+Wlpn/hISH/yYmJ/8BAQH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AwME/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/AwMD/wAAAP8BAQH/AgIC/xUVFf9AQED/RERE/0VFRf9ERET/JyYm/yMjI/9ERET/RERE/0RERP9DQkP/HBwc/x8fH/9DQ0P/RERE/0VERP89PT3/HR0d/wMDA/8BAQH/AAAA/wUFBf8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/ygoKP9paWn/a2tr/2tra/9sbGz/bW1t/21tbf9tbW3/bm5u/25ubv9vb2//b29v/29vb/9vb2//b29v/29vb/9ubm7/bm5u/21tbf9tbW3/bW1t/2xsbP9ra2v/a2tr/15eXv8RERH/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wMDBP9LS0z/lpaZ/5CQk/+Dg4b/e3t+/3p6ff+BgYP/iIiL/5aWmf9qam3/CwsL/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wMDA/8BAQH/AQEB/wMDA/8nJib/e3t7/4KCgv+CgoL/goKC/0hISP9CQkL/goKC/4KCgv+CgoL/fn9//zQ0NP84ODj/gYGB/4KCgv+CgoL/dHR0/zU1Nf8EBAT/AgIC/wEBAf8FBQX/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8pKSn/a2tr/21tbf9ubm7/bm5u/3BwcP9vb2//cHBw/3BwcP9wcHD/cXFx/3Fxcf9ycnL/cnJy/3Fxcf9xcXH/cXFx/3BwcP9wcHD/b29v/3BwcP9ubm7/bm5u/25ubv9gYGD/ERER/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8MDAz/b29x/5WVmP+JiYz/e3t+/3Fxc/9vb3H/eHh6/4GBg/+QkJP/iIiL/xsbG/8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8DAwP/AQEB/wICAv8EBAT/KSkp/4CAgP+HiIf/h4eH/4eHh/9LS0v/RUZF/4eHh/+IiIj/h4eH/4SEhP83Nzf/PDs7/4aGhv+Hh4f/iIiH/3l5ef84ODj/BQUF/wICAv8BAQH/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/KSkp/2xsbP9ubm7/b29v/3BwcP9wcHD/cXFx/3Fxcf9ycnL/cnJy/3Nzc/9ycnL/c3Nz/3Nzc/9ycnL/cnJy/3Jycv9ycnL/cXFx/3Fxcf9wcHD/cHBw/29vb/9vb2//YWFh/xEREf8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/FRUW/4eHif+QkJP/hISG/3Nzdf9kZGb/YWFj/29vcf96enz/i4uO/5OTlv8rKyz/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AwME/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/AwMD/wEBAf8CAgL/BQUF/ywsLP+IiIj/kJCQ/4+PkP+Pj4//UFFQ/0pKSv+Qj5D/kI+Q/5CQkP+MjIz/Ozs7/0BAQP+Ojo7/kI+P/4+QkP+BgYH/PDw8/wYGBv8DAwP/AQEB/wQEBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/yoqKv9ubm7/cXFx/3Fxcf9ycnL/c3Nz/3Nzc/90dHT/dXV1/3R0dP91dXX/dXV1/3V1df91dXX/dXV1/3V1df90dHT/dXV1/3R0dP9zc3P/c3Nz/3Jycv9xcXH/cXFx/2NjY/8SEhL/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/xQUFf+FhYj/kJCT/4SEh/90dHb/ZWVn/2NjZf9vb3H/enp8/4yMj/+SkpX/Kior/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wMDA/8BAQH/AwMD/wUFBf8sLCz/h4eH/4+Pj/+Pj4//j4+P/1FRUf9KSkr/j4+P/4+Pj/+Pj4//i4uL/zs7O/8/Pz//jo6O/4+Pj/+Pj4//gICA/zw8PP8GBgb/AwMD/wICAv8EBAT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8rKyv/cHBw/3Jycv9zc3P/dHR0/3R0dP91dXX/dnZ2/3Z2dv92dnb/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/dnZ2/3Z2dv92dnb/dXV1/3R0dP90dHT/c3Nz/3Jycv9kZGT/EhIS/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8JCQr/ZmZp/5WVmP+Li47/fX1//3Nzdf9ycnT/enp8/4KChf+SkpX/g4OF/xcXF/8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8EBAT/AgIC/wMDA/8FBQX/FRUW/zg4OP88PDz/PDw8/zw8PP8lJSX/IyMj/zw8PP88PDz/PDw8/zo6Ov8eHh7/Hx8f/zs7O/88PDz/PDw8/zU1Nf8cHBz/BgYG/wMDA/8CAgL/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/Kysr/3Fxcf90dHT/dHR0/3V1df92dnb/d3d3/3h4eP94eHj/eHh4/3l5ef95eXn/enp6/3p6ev95eXn/eXl5/3h4eP94eHj/eHh4/3d3d/92dnb/dXV1/3R0dP90dHT/ZWVl/xISEv8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AQEB/y4uL/+QkJL/lpaZ/4uLjv+EhIb/g4OF/4iIi/+Pj5L/l5ea/0pKS/8EBAT/AQEB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AwME/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/AwMD/wICAv8DAwP/BgYG/yoqKv96enr/gYGB/4GBgf+BgYH/S0tL/0VFRf+BgYH/gYKC/4GBgf9+fn7/OTg5/zw8Pf+AgID/gYGB/4GBgf90dHT/ODg4/wcHB/8EBAT/AgIC/wUFBf8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/ywsLP9ycnL/dHR0/3V1df92dnb/d3d3/3h4eP95eXn/eXl5/3p6ev97e3v/e3t7/3x8fP98fHz/e3t7/3t7e/96enr/eXl5/3l5ef94eHj/d3d3/3Z2dv91dXX/dXV1/2ZmZv8SEhL/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wAAAf8AAAH/AAAB/wAAAf8AAAH/AgIC/wMDA/8RERL/ZWVn/5CQk/+VlZj/j4+S/4+Pkv+Tk5b/l5ea/3t7fv8iIiP/CQkJ/wYGB/8DAwT/AAAB/wAAAf8AAAH/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wQEBP8CAgL/BAQE/wcHB/83Nzf/pKSk/62trf+tra3/ra2t/2NkZP9cXFz/ra2t/66trv+tra3/qamp/0pKSv9PT0//q6ys/62trf+trq7/m5yb/0tLSv8ICQn/BAQE/wMDA/8FBQX/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8sLCz/c3Nz/3V1df92dnb/d3d3/3h4eP94eHj/eXl5/3p6ev97e3v/fHx8/3x8fP99fX3/fX19/3x8fP98fHz/e3t7/3p6ev95eXn/eXl5/3h4eP93d3f/dnZ2/3V1df9nZ2f/ExMT/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/AAAB/wAAAf8FBQb/ERER/ygoKf8wMDL/LCwt/yUlJv87Ozz/cXFz/4uLjf+MjI7/fHx//19fYf9NTU//gICC/5mZnf+Kio3/YmJl/x0dHv8CAgP/AAAA/wAAAf8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8EBAT/AwMD/wQEBP8ICAj/Ojs6/6urq/+1tbX/tbW1/7W1tf9paWn/YWFh/7W1tf+1tbX/tbW1/7Cwsf9PT0//VFRU/7Ozs/+1tbT/tbW1/6Kjo/9PT0//CgoK/wUFBf8DAwP/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/LCws/3Nzc/91dXX/dnZ2/3d3d/95eXn/enp6/3p6ev97e3v/fHx8/319ff9+fn7/fn5+/35+fv9+fn7/fX19/3x8fP97e3v/e3t7/3p6ev95eXn/eHh4/3Z2dv92dnb/Z2dn/xMTE/8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wAAAf8LCwz/MTEy/z8/Qf9CQkT/QEBC/0JCQ/9BQUP/OTk7/yAgIf8ZGRr/Ghob/zU1Nv99fX//1NTY/+rq7//r6/D/6+vv/+Xl6v+4uLv/PDw+/wMDA/8AAAH/AwME/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BAQE/wMDA/8FBQX/CQkJ/z4+Pv+0tLT/vr6+/76+vv++vr7/bm5u/2dnZ/++vr7/vr6+/76+vv+5ubn/U1NT/1lZWf+9vLz/vr6+/76/v/+rq6v/U1NT/wsLC/8FBQX/AwMD/wUFBf8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/ywsLP9zc3P/dXV1/3Z2dv93d3f/eHh4/3l5ef96enr/e3t7/3x8fP99fX3/fX19/319ff99fX3/fn5+/319ff98fHz/e3t7/3p6ev96enr/eHh4/3d3d/92dnb/dnZ2/2dnZ/8TExP/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wAAAf8FBQX/Ly8w/0NDRf88PD3/MjIz/y4uL/8xMTH/OTk6/0FBQv87Oz3/DQ0O/xISEv+bm53/4+Pm/+Xl6f/b2+D/19fc/9nZ3v/e3uT/6enu/7y8vv8iIiP/AQEB/wICA/8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wQEBP8DAwP/BQUF/wkJCf85OTn/oqKi/6urq/+rq6v/q6ur/2RkZP9dXV3/q6ur/6urq/+rq6v/p6en/0xMTP9RUVH/qqmq/6urq/+srKv/mpqa/0xMTP8LCwv/BQUF/wMDA/8FBQX/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8sLCz/cnJy/3V1df92dnb/dnZ2/3d3d/94eHj/eXl5/3p6ev96enr/e3t7/3x8fP98fHz/fHx8/3x8fP97e3v/e3t7/3p6ev95eXn/eHh4/3d3d/92dnb/dnZ2/3V1df9mZmb/ExMT/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/FBQV/0JCRP86Ojv/Ly8w/yMjJP8dHR7/ICAh/ysrLP81NTb/RERG/yUlJv9JSUv/4eHl/+fn7P/Y2N3/y8vQ/8bGy//Kys//0dHV/97e4//o6Oz/b29y/wUFBf8EBAT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8EBAT/AwMD/wUFBf8JCQn/Hh4e/0VFRf9JSUn/SUpK/0lJSf8xMTH/Ly8v/0lJSf9KSkr/SkpK/0hISP8pKSn/Kysr/0hISf9KSkr/SkpK/0FBQf8lJSX/CwsL/wYGBv8DAwP/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/LCws/3Fxcf90dHT/dXV1/3Z2dv92dnb/d3d3/3h4eP95eXn/eXl5/3p6ev96enr/enp6/3p6ev96enr/enp6/3l5ef95eXn/eHh4/3d3d/93d3f/dnZ2/3V1df90dHT/ZWVl/xISEv8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AQEC/x8fIf9EREb/NTU2/ykpKv8aGhv/EhIT/xcXGP8lJSb/MDAx/0FBQ/8vLzD/ZmZo/+vr7//j4+j/0tLX/8PDyP+7u8D/wMDF/8nJzv/Z2d7/6+vv/5aWmP8JCQn/BAQE/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BAQE/wQEBP8FBQX/CgoK/zQ0NP+Ojo7/lpaW/5aWlv+Wlpb/Wlpa/1RUVP+Wlpb/lpaW/5aWlv+TkpL/RkdG/0pKSv+VlJX/lpaW/5aWlv+Hh4f/RUVF/wwMDP8GBgb/AwMD/wUFBf8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/ysrK/9xcXH/c3Nz/3R0dP91dXX/dXV1/3Z2dv93d3f/eHh4/3h4eP94eHj/eXl5/3l5ef95eXn/eXl5/3h4eP94eHj/eHh4/3d3d/92dnb/dnZ2/3V1df90dHT/c3Nz/2VlZf8SEhL/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wICAv8lJSb/Q0NF/zIyM/8mJif/FRUW/wkJCv8QEBH/ISEi/y0tLv8/P0H/MzM0/3V1eP/r6+7/4ODl/8/P1P+9vcL/srK2/7q6vv/ExMn/1tbb/+rq7v+kpKf/CwsL/wQEBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wQEBP8EBAT/BgYG/w0NDf9LSkv/1NTU/9/g3//f39//39/f/4KDg/95eXn/4ODg/+Dg4P/f39//2tra/2NjY/9paWn/3t3d/9/f3//g4OD/ycnJ/2RkZP8ODg7/BwcH/wQEBP8FBQX/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8rKyv/b29v/3Jycv9ycnL/c3Nz/3R0dP91dXX/dXV1/3Z2dv92dnb/dnZ2/3d3d/93d3f/d3d3/3d3d/92dnb/dnZ2/3Z2dv91dXX/dXV1/3R0dP9zc3P/cnJy/3Jycv9kZGT/EhIS/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8BAQL/Hx8g/0RERv81NTb/Kioq/xsbHP8TExT/GBgZ/yUlJv8wMDH/QUFD/y0tL/9kZGb/6uru/+Pj6P/S0tf/xMTJ/7y8wf/Bwcb/ysrP/9nZ3v/q6u//k5OW/wgICf8EBAT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8EBAT/BAQE/wYGBv8ODg7/Tk5O/9vb2//m5+b/5+fn/+bm5v+Hh4f/fHx8/+fn5//n5+f/5ubm/+Hh4P9mZmb/bW1t/+Tk5P/m5ub/5+fn/8/Pz/9oZ2f/EBAQ/wgICP8EBAT/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/Kioq/25ubv9wcHD/cHBw/3Fxcf9ycnL/c3Nz/3Nzc/90dHT/dHR0/3R0dP90dHT/dXV1/3V1df90dHT/dXV1/3R0dP90dHT/c3Nz/3Nzc/9ycnL/cXFx/3BwcP9wcHD/YmJi/xISEv8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wwMDf89PT//PT0//zQ0Nf8pKSr/JCQl/ycnKP8wMDH/OTk6/0NDRf8bGxz/MDAx/83N0f/q6u7/3d3i/9LS1//NzdL/0NDV/9bW2//j4+j/39/j/01NT/8CAgP/AwMD/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BAQE/wQEBP8GBgb/DQ0N/1BQUP/k5OT/8fLy//Hx8f/w8PD/jIyM/4CAgP/v7+//8fHy//Hx8f/q6ur/aGho/3Fxcf/u7u7/8fHx//Hx8f/Y2Nj/a2tr/w8PD/8ICAj/BAQE/wUFBf8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/ykpKf9sbGz/bm5u/25ubv9vb2//cHBw/3BwcP9ycnL/cXFx/3Fxcf9ycnL/cnJy/3Nzc/9zc3P/cnJy/3Jycv9xcXH/cXFx/3Jycv9wcHD/cHBw/29vb/9ubm7/bm5u/2BgYP8RERH/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BQUF/wAAAf8EBAT/LCwt/0NDRf89PT7/NDQ1/zAwMf8yMjP/Ojo7/0FBQ/84ODr/CwsL/w4OD/+QkJP/3t7h/+bm6//c3OL/2Nje/9vb4P/g4OX/6uru/7Oztv8dHR7/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wQEBP8DAwP/BgYG/wwMDP9JSUn/zs7O/9zc3P/c3Nz/2tra/4CAgP90dHT/2dnZ/9zc3P/c3Nz/1NTU/19eXv9nZ2f/19fX/9zc3P/c3Nz/w8PD/2FhYf8NDQ3/BwcH/wMDA/8FBQX/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8pKSn/ampq/21tbf9tbW3/bm5u/25ubv9vb2//b29v/3BwcP9wcHD/cHBw/3BwcP9xcXH/cXFx/3BwcP9wcHD/cHBw/3BwcP9vb2//b29v/25ubv9tbW3/bW1t/21tbf9fX1//ERER/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wUFBf8AAAH/AAAB/wkJCf8sLC7/Pj5A/0RERv9CQkT/Q0NF/0JCRP81NTf/EBAR/wEBAf8BAQH/HBwd/2VlZ//OztH/6+vv/+vr7//r6+//5ubp/6qqrP8vLzH/AgIC/wAAAf8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8DAwP/AgIC/wQEBP8ICAj/GBgY/zU1Nf85OTn/OTo6/zg4OP8nJyf/JCQk/zg4OP86Ojr/Ojo6/zc3N/8hICD/IiIi/zg4OP86Ojr/OTk5/zMzM/8eHh7/CQkJ/wQEBP8CAgL/BQUF/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/Jycn/2hoaP9qamr/ampq/2tra/9sbGz/bGxs/21tbf9tbW3/bW1t/25ubv9ubm7/bm5u/25ubv9ubm7/bm5u/21tbf9tbW3/bW1t/2xsbP9sbGz/a2tr/2pqav9qamr/XV1d/xAQEP8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8FBQX/AAAB/wAAAP8AAAH/BAQF/w8PD/8iIiT/KSkr/yYmJ/8UFBX/CAgI/wAAAf8AAAH/AAAB/wEBAv8GBgf/LS0v/25ucP+EhIf/d3d5/1ZWWP8WFhf/AQEC/wAAAf8AAAH/AwME/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/AwMD/wEBAf8CAgL/BAQE/wgICP8LCwv/DQ0N/w4ODv8NDQ3/DAwM/wsLC/8NDQ3/Dg4O/w4ODv8NDQ3/CwsL/wsLC/8NDQ3/Dg4O/w0NDf8LCwv/CAgI/wUFBf8CAgL/AQEB/wQEBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/yYmJv9lZWX/Z2dn/2hoaP9oaGj/aWlp/2lpaf9qamr/ampq/2tra/9ra2v/a2tr/2tra/9ra2v/bGxs/2tra/9ra2v/ampq/2pqav9paWn/aWlp/2hoaP9oaGj/Z2dn/1paWv8QEBD/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8EBAT/BAQF/wAAAf8AAAH/AAAB/wAAAf8AAAH/AQEC/wICAv8BAQL/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8DAwT/BgYG/wQEBf8CAgL/AAAB/wAAAf8AAAH/AAAB/wMDBP8EBAT/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wICAv8AAAD/AQEB/wICAv8EBAT/BgYG/wYGBv8GBgb/BwcH/wYGBv8GBgb/BwcH/wcHB/8HBwf/BwcH/wYGBv8GBgb/BwcH/wcHB/8GBgb/BQUF/wQEBP8CAgL/AQEB/wEBAf8EBAT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8mJib/YmJi/2RkZP9lZWX/ZmZm/2dnZ/9nZ2f/aGho/2hoaP9oaGj/aGho/2lpaf9paWn/aWlp/2lpaf9oaGj/aGho/2hoaP9oaGj/Z2dn/2dnZ/9mZmb/ZWVl/2VlZf9YWFj/EBAQ/wUFBf8FBQX/BQUF/wUFBf8FBQX2BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BAQE/wQEBf8CAgL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AQEC/wEBAv8BAQL/AgID/wICA/8CAgP/AQEC/wEBAv8BAQL/AQEC/wICAv8DAwT/BAQE/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wQEBP8DAwP/AQEB/wICAv8CAgL/AwMD/wQEBP8EBAT/BAQE/wQEBP8EBAT/BAQE/wQEBP8FBQX/BQUF/wQEBP8EBAT/BAQE/wQEBP8EBAT/BAQE/wQEBP8DAwP/AwMD/wICAv8CAgL/BAQE/wQEBP8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE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/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf0EBASiAwMDCQAAAAEAAAAJAAAAogMDA/0EBAT/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAAJQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF9gUFBVwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAogMDA/0EBAT+BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX9BAQEogMDAwkAAAABAAAACQAAAKIDAwP9BAQE/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAACUAAACiAwMD/QQEBP8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBfYFBQVcAQEBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAKIDAwP8BAQE/gUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/QQEBKIDAwMJAAAAAQAAAAkAAACiAwMD/AQEBP8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/gUFBf0EBASiAwMDCQAAAAEAAAAlAAAAogMDA/wEBAT/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf4FBQX1BQUFXAEBAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAACgAgIC/AQEBP4EBAT/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBfwEBAShAgICCQAAAAAAAAAJAAAAoAICAvwEBAT+BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf4EBAT8BAQEoQICAgkAAAAAAAAAJAAAAKACAgL8BAQE/gUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX+BAQE9QQEBFwBAQEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAewMDA/cEBAT9BAQE/gQEBP4FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX+BQUF/gQEBP4EBAT4BAQEggMDAwUAAAAAAAAABQAAAHsDAwP3BAQE/QQEBP4FBQX+BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/gUFBf4EBAT9BAQE+AQEBIIDAwMFAAAAAAAAABYAAAB7AwMD9wQEBP0EBAT+BQUF/gUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/gUFBf4FBQX+BAQE/QQEBOcEBARDAQEBBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAACtAwMD5AQEBPUFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfUFBQXvBAQEswQEBCkBAQEAAAAAAAAAAAAAAAAkAAAArQMDA+4EBAT2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX1BQUF5gQEBLMEBAQpAQEBAAAAAAAAAAADAAAAJAAAAK0DAwPuBAQE9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9gUFBfYFBQX2BQUF9QUFBeYEBASFAwMDDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGQAAAD0BAQFaAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFbAQEBTgEBARwAAAABAAAAAAAAAAAAAAAAAAAAAQAAABkAAABMAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBWwEBAT8BAQEcAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAZAAAATAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVwBAQFcAQEBXAEBAVsBAQE/AQEBDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAFAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABwAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAFAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAcAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACN0bHMAAAAEAAAAA3Rvb2wAAAcsY3N0YQAAAAAAAADkAAAAAAAAAABAWQAAAAAAAAAAAAAAAAAAP/AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAP/AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAP/AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAQFkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAAAAAAAAAAAAP/AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBQAAAAAAABAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdG9vbAAAAJxvZGlmAAAAAAAAABJAOQAAAAAAAEBywAAAAAAAQFkAAAAAAAAAAAAAAAAAAEBJAAAAAAAAQEkAAAAAAAA/8AAAAAAAAD/wAAAAAAAAP/AAAAAAAAAAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0b29sAAAARGxlbnYAAAAAAAAAB0BSwAAAAAAAQEkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAD/wAAAAAAAAbmFtZQAAABAAAAAJ5pyq5ZG95ZCNAAAAc3RybgAAAAg/8AAAAAAAAHVpem0AAAAIP/AAAAAAAAB1aXB4AAAACECDcAAAAAAAdWlweQAAAAhAddAAAAAAAHVpc2wAAAAIAAAAAAAAAAB1aXNrAAAABAAAAAByb3BuAAAAAQByc2xuAAAABP////9ycHNuAAAACD/gAAAAAAAAaHN6bQAAAAg/8AAAAAAAAHVzdGwAAAAEAAAAAXVzY3QAAAAEAAAAAFRzdHIAAAAMAAAAAEBZAAAAAAAAVHN0cgAAAAwAAAABQDkAAAAAAABUc3RyAAAADAAAAAJAWQAAAAAAAGlucHQAAAA8Zm9vdAAAAAUAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb3V0cAAAAJxPQ291AAAABwAAABIAAAAAAAAAAAAAAAAAAAAAQFkAAAAAAAA/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCQAAAAAAABAAAAAAAAAAECiwgAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0U3RyAAAAHHVvQ0/9////CQAAAAAAAABhY2VzXzEuMC4zAAB0U3RyAAAAJHVvQ0/9////BAAAAAAAAABPdXRwdXQgLSBSZWMuNzA5AAAAAHRTdHIAAAAkdW9DT/3///8HAAAAAAAAAE91dHB1dCAtIFJlYy43MDkAAAAAdFN0cgAAABh1b0NP/f///wYAAAAAAAAAUmVjLjcwOQBFT0YhAAAAAAAAAAA=</StartKeyframeValue>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<KeyframeSetSize>0</KeyframeSetSize>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="153" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="10">
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>16</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>14</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="154" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="10">
+		<Name>寮哄害</Name>
+		<Node Version="1">
+		</Node>
+		<ParameterControlType>8</ParameterControlType>
+		<Keyframes></Keyframes>
+		<ParameterID>13</ParameterID>
+		<UnitsString></UnitsString>
+		<UIBypassed>false</UIBypassed>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+	</VideoComponentParam>
+</PremiereData>
