@@ -12,6 +12,8 @@ pause
 echo "& 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /deploy"
 & 'c:\program files\rime\weasel-0.17.4\weaseldeployer' /deploy
 pause
+echo 'gci sync\*|? lastwritetime -lt(date).adddays(-7)|ri'
+gci sync\*|? lastwritetime -lt(date).adddays(-7)|ri
 echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt'
 cp rime_frost.userdb.txt sync\rime_frost.userdb.txt
 echo '$time = get-date -format yyyyMMddHHmmss'
