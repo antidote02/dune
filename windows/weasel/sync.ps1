@@ -16,7 +16,5 @@ echo 'gci sync\*|? lastwritetime -lt(date).adddays(-7)|ri'
 gci sync\*|? lastwritetime -lt(date).adddays(-7)|ri
 echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt'
 cp rime_frost.userdb.txt sync\rime_frost.userdb.txt
-echo '$time = get-date -format yyyyMMddHHmmss'
-$time = get-date -format yyyyMMddHHmmss
-echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$time'
-cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$time
+echo 'cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$(date -f yyyyMMddHHmmss)'
+cp rime_frost.userdb.txt sync\rime_frost.userdb.txt.$(date -f yyyyMMddHHmmss)
